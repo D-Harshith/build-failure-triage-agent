@@ -1,1 +1,5 @@
 TODO.txt
+Dataset/
+Dataset/LogChunks/
+__pycache__/
+.DS_Store
