@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>Haskell/purescript@purescript/failed/549434310.log</Log>
+    <Keywords>exited with 124, , </Keywords>
+    <Category>0</Category>
+    <Chunk>The command "$TIMEOUT 35m ci/build.sh" exited with 124.</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/purescript@purescript/failed/549447715.log</Log>
+    <Keywords>violation, , </Keywords>
+    <Category>1</Category>
+    <Chunk>Access violation in generated code when reading ffffffffffffffff</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/purescript@purescript/failed/549463948.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>2</Category>
+    <Chunk>/home/travis/build/purescript/purescript/sdist-test/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Language/PureScript/CST/Parser.hs:60:64: error:
+    Not in scope: type variable ‘a’
+   |
+60 | newtype HappyWrap27 = HappyWrap27 (QualifiedName (N.ProperName a))
+   |                                                                ^
+
+/home/travis/build/purescript/purescript/sdist-test/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Language/PureScript/CST/Parser.hs:67:55: error:
+    Not in scope: type variable ‘a’
+   |
+67 | newtype HappyWrap28 = HappyWrap28 (Name (N.ProperName a))
+   |                                                       ^
+
+/home/travis/build/purescript/purescript/sdist-test/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Language/PureScript/CST/Parser.hs:88:60: error:
+    Not in scope: type variable ‘a’
+   |
+88 | newtype HappyWrap31 = HappyWrap31 (QualifiedName (N.OpName a))
+   |                                                            ^
+
+/home/travis/build/purescript/purescript/sdist-test/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Language/PureScript/CST/Parser.hs:95:51: error:
+    Not in scope: type variable ‘a’
+   |
+95 | newtype HappyWrap32 = HappyWrap32 (Name (N.OpName a))
+   |                                                   ^
+
+/home/travis/build/purescript/purescript/sdist-test/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Language/PureScript/CST/Parser.hs:102:60: error:
+    Not in scope: type variable ‘a’
+    |
+102 | newtype HappyWrap33 = HappyWrap33 (QualifiedName (N.OpName a))
+    |                                                            ^
+
+/home/travis/build/purescript/purescript/sdist-test/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Language/PureScript/CST/Parser.hs:109:51: error:
+    Not in scope: type variable ‘a’
+    |
+109 | newtype HappyWrap34 = HappyWrap34 (Name (N.OpName a))
+    |                                                   ^
+
+/home/travis/build/purescript/purescript/sdist-test/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Language/PureScript/CST/Parser.hs:536:50: error:
+    Not in scope: type variable ‘a’
+    |
+536 | newtype HappyWrap95 = HappyWrap95 (TmpModuleDecl a)
+    |                                                  ^
+
+/home/travis/build/purescript/purescript/sdist-test/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Language/PureScript/CST/Parser.hs:871:65: error:
+    Not in scope: type variable ‘a’
+    |
+871 | newtype HappyWrap143 = HappyWrap143 (NE.NonEmpty (TmpModuleDecl a))
+    |                                                                 ^
+
+/home/travis/build/purescript/purescript/sdist-test/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Language/PureScript/CST/Parser.hs:941:68: error:
+    Not in scope: type variable ‘a’
+    |
+941 | newtype HappyWrap153 = HappyWrap153 (Separated (Name (N.ProperName a)))
+    |                                                                    ^
+
+/home/travis/build/purescript/purescript/sdist-test/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Language/PureScript/CST/Parser.hs:1039:65: error:
+    Not in scope: type variable ‘a’
+     |
+1039 | newtype HappyWrap167 = HappyWrap167 (NE.NonEmpty (TmpModuleDecl a))
+     |                                                                 ^
+
+/home/travis/build/purescript/purescript/sdist-test/.stack-work/dist/x86_64-linux/Cabal-2.4.0.1/build/Language/PureScript/CST/Parser.hs:1130:73: error:
+    Not in scope: type variable ‘a’
+     |
+1130 | newtype HappyWrap180 = HappyWrap180 ([(SourceToken, (Name (N.ProperName a)))])
+     |                                                                         ^</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/purescript@purescript/failed/551305362.log</Log>
+    <Keywords>exited with 124, , </Keywords>
+    <Category>0</Category>
+    <Chunk>The command "$TIMEOUT 35m ci/build.sh" exited with 124.</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/purescript@purescript/failed/569639746.log</Log>
+    <Keywords>error, Could not match type, </Keywords>
+    <Category>3</Category>
+    <Chunk>in module [33m$PSCI[0m
+at internal&gt;:0:0 - 0:0 (line 0, column 0 - line 0, column 0)
+
+  Could not match type
+  [33m        [0m
+  [33m  String[0m
+  [33m        [0m
+  with type
+  [33m           [0m
+  [33m  Effect t0[0m
+  [33m           [0m
+
+while checking that type [33mString[0m
+  is at least as general as type [33mEffect t0[0m
+while checking that expression [33mshow it[0m
+  has type [33mEffect t0[0m
+in value declaration [33m$main[0m
+
+where [33mt0[0m is an unknown type</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/purescript@purescript/failed/573089600.log</Log>
+    <Keywords>error, Failure, </Keywords>
+    <Category>4</Category>
+    <Chunk>/home/travis/build/purescript/purescript/sdist-test/[;1msrc/Language/PureScript/Environment.hs:528:3: [;1m[31merror:[0m[0m[;1m[0m[0m[;1m[0m
+[0m    • Couldn't match type ‘Bool -&gt; TypeClassData’ with ‘TypeClassData’[0m
+[0m      Expected type: M.Map[0m
+[0m                       (Qualified (ProperName 'ClassName)) TypeClassData[0m
+[0m        Actual type: M.Map[0m
+[0m                       (Qualified (ProperName 'ClassName)) (Bool -&gt; TypeClassData)[0m
+[0m    • In the expression:[0m
+[0m        M.fromList[0m
+[0m          [(primSubName C.moduleCoerce "Coercible", [0m
+[0m            makeTypeClassData[0m
+[0m              [("a", Just kindType), ("b", Just kindType)] [] [] [])][0m
+[0m      In an equation for ‘primCoerceClasses’:[0m
+[0m          primCoerceClasses[0m
+[0m            = M.fromList[0m
+[0m                [(primSubName C.moduleCoerce "Coercible", [0m
+[0m                  makeTypeClassData [("a", Just kindType), ....] [] [] [])][0m[0m[0m
+[0m[;1m[34m    |[0m[0m[0m
+[0m[;1m[34m528 |[0m[0m   [;1m[31mM.fromList[0m[0m[0m
+[0m[;1m[34m    |[0m[0m[;1m[31m   ^^^^^^^^^^...</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/purescript@purescript/failed/573124345.log</Log>
+    <Keywords>Error, , </Keywords>
+    <Category>5</Category>
+    <Chunk>Error found:
+        in module [33mMain[0m
+        at /home/travis/build/purescript/purescript/sdist-test/tests/purs/passing/Coercible.purs:6:1 - 6:28 (line 6, column 1 - line 6, column 28)
+        
+          Module [33mSafe.Coerce[0m was not found.
+          Make sure the source file exists, and that it has been provided as an input to the compiler.</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/purescript@purescript/failed/574008409.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>4</Category>
+    <Chunk>/home/travis/build/purescript/purescript/sdist-test/[;1msrc/Language/PureScript/TypeChecker/Types.hs:40:1: [;1m[31merror:[0m[0m[;1m [[;1m[31m-Wunused-imports, -Werror=unused-imports[0m[0m[;1m][0m[0m[;1m[0m
+[0m    The import of ‘!!’ from module ‘Data.List’ is redundant[0m[0m[0m
+[0m[;1m[34m   |[0m[0m[0m
+[0m[;1m[34m40 |[0m[0m [;1m[31mimport Data.List (transpose, (\\), partition, delete, (!!))[0m[0m[0m
+[0m[;1m[34m   |[0m[0m[;1m[31m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/purescript@purescript/failed/574246808.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>4</Category>
+    <Chunk>/home/travis/build/purescript/purescript/sdist-test/[;1msrc/Language/PureScript/Errors.hs:336:32: [;1m[31merror:[0m[0m[;1m [[;1m[31m-Wunused-matches, -Werror=unused-matches[0m[0m[;1m][0m[0m[;1m[0m
+[0m    Defined but not used: ‘unknownName’[0m[0m[0m
+[0m[;1m[34m    |[0m[0m[0m
+[0m[;1m[34m336 |[0m[0m       UnknownName alternatives [;1m[31munknownName[0m[0m -&gt; suggest $ T.unlines $ (\(mn, ref) -&gt; importSuggestion mn [ref] Nothing) $&gt; alternatives[0m
+[0m[;1m[34m    |[0m[0m[;1m[31m                                ^^^^^^^^^^^</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/purescript@purescript/failed/574278226.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>4</Category>
+    <Chunk>/home/travis/build/purescript/purescript/sdist-test/[;1msrc/Language/PureScript/Suggest.hs:8:1: [;1m[31merror:[0m[0m[;1m [[;1m[31m-Wunused-imports, -Werror=unused-imports[0m[0m[;1m][0m[0m[;1m[0m
+[0m    The import of ‘maybeToList’ from module ‘Data.Maybe’ is redundant[0m[0m[0m
+[0m[;1m[34m  |[0m[0m[0m
+[0m[;1m[34m8 |[0m[0m [;1m[31mimport Data.Maybe (catMaybes, maybeToList)[0m[0m[0m
+[0m[;1m[34m  |[0m[0m[;1m[31m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m[0m
+[0m[0m[0m[0m[0m
+[0m/home/travis/build/purescript/purescript/sdist-test/[;1msrc/Language/PureScript/Suggest.hs:10:1: [;1m[31merror:[0m[0m[;1m [[;1m[31m-Wunused-imports, -Werror=unused-imports[0m[0m[;1m][0m[0m[;1m[0m
+[0m    The qualified import of ‘Data.List.NonEmpty’ is redundant[0m
+[0m      except perhaps to import instances from ‘Data.List.NonEmpty’[0m
+[0m    To import instances alone, use: import Data.List.NonEmpty()[0m[0m[0m
+[0m[;1m[34m   |[0m[0m[0m
+[0m[;1m[34m10 |[0m[0m [;1m[31mimport qualified Data.List.NonEmpty as NEL[0m[0m[0m
+[0m[;1m[34m   |[0m[0m[;1m[31m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m[0m
+[0m[0m[0m[0m[0m
+[0m/home/travis/build/purescript/purescript/sdist-test/[;1msrc/Language/PureScript/Suggest.hs:29:7: [;1m[31merror:[0m[0m[;1m [[;1m[31m-Woverlapping-patterns, -Werror=overlapping-patterns[0m[0m[;1m][0m[0m[;1m[0m
+[0m    Pattern match is redundant[0m
+[0m    In an equation for ‘decorateErrorMessage’:[0m
+[0m        decorateErrorMessage others = ...[0m[0m[0m
+[0m[;1m[34m   |[0m[0m[0m
+[0m[;1m[34m29 |[0m[0m       [;1m[31mdecorateErrorMessage others = others[0m[0m[0m
+[0m[;1m[34m   |[0m[0m[;1m[31m       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</Chunk>
+  </Example>
+</Examples>

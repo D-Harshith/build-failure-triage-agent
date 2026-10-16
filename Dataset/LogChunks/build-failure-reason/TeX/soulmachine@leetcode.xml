@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>TeX/soulmachine@leetcode/failed/172062089.log</Log>
+    <Keywords>rake aborted!, , </Keywords>
+    <Category>0</Category>
+    <Chunk>rake aborted!
+No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/soulmachine@leetcode/failed/224191374.log</Log>
+    <Keywords>rake aborted!, , </Keywords>
+    <Category>0</Category>
+    <Chunk>rake aborted!
+No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/soulmachine@leetcode/failed/224191504.log</Log>
+    <Keywords>rake aborted!, , </Keywords>
+    <Category>0</Category>
+    <Chunk>rake aborted!
+No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/soulmachine@leetcode/failed/224191617.log</Log>
+    <Keywords>rake aborted!, , </Keywords>
+    <Category>0</Category>
+    <Chunk>rake aborted!
+No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/soulmachine@leetcode/failed/224192148.log</Log>
+    <Keywords>rake aborted!, , </Keywords>
+    <Category>0</Category>
+    <Chunk>rake aborted!
+No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/soulmachine@leetcode/failed/245016628.log</Log>
+    <Keywords>rake aborted!, , </Keywords>
+    <Category>0</Category>
+    <Chunk>rake aborted!
+No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/soulmachine@leetcode/failed/245420059.log</Log>
+    <Keywords>rake aborted!, , </Keywords>
+    <Category>0</Category>
+    <Chunk>rake aborted!
+No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/soulmachine@leetcode/failed/250792311.log</Log>
+    <Keywords>rake aborted!, , </Keywords>
+    <Category>0</Category>
+    <Chunk>rake aborted!
+No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/soulmachine@leetcode/failed/302364749.log</Log>
+    <Keywords>rake aborted!, , </Keywords>
+    <Category>0</Category>
+    <Chunk>rake aborted!
+No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/soulmachine@leetcode/failed/306325878.log</Log>
+    <Keywords>rake aborted!, , </Keywords>
+    <Category>0</Category>
+    <Chunk>rake aborted!
+No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)</Chunk>
+  </Example>
+</Examples>

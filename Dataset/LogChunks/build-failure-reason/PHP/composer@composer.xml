@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>PHP/composer@composer/failed/547576002.log</Log>
+    <Keywords>failure, 1), FAILURE</Keywords>
+    <Category>0</Category>
+    <Chunk>1) Composer\Test\DependencyResolver\SolverTest::testUnsatisfiableRequires
+Failed asserting that two strings are equal.
+--- Expected
++++ Actual
+@@ @@
+  - It's a private package and you forgot to add a custom repository to find it
++ - It's a private package and you forgot to configure the required authentication credentials
+ 
+ Read &lt;https://getcomposer.org/doc/articles/troubleshooting.md&gt; for further common problems.'
+
+/home/travis/build/composer/composer/tests/Composer/Test/DependencyResolver/SolverTest.php:717</Chunk>
+  </Example>
+  <Example>
+    <Log>PHP/composer@composer/failed/547593737.log</Log>
+    <Keywords>failure, 1), FAILURE</Keywords>
+    <Category>0</Category>
+    <Chunk>1) Composer\Test\InstallerTest::testIntegration with data set "solver-problems.test" ('solver-problems.test', 'Test the error output of solv...blems.', null, array(array(array('package', array(array('unstable/package', '2.0.0-alpha'), array('unstable/package', '1.0.0'), array('requirer/pkg', '1.0.0', array('1.0.0')), array('dependency/pkg', '2.0.0'), array('dependency/pkg', '1.0.0'), array('stable-requiree-excluded/pkg', '1.0.1'), array('stable-requiree-excluded/pkg', '1.0.0')))), array('2.*', '1.*', '1.*', '2.*', '1.0.1')), array(), array(array('stable-requiree-excluded/pkg', '1.0.0')), 'update unstable/package requi...cy/pkg', array(), 'Loading composer repositories...blems.', '\n', 2)
+Failed asserting that format description matches text.
+--- Expected
++++ Actual
+@@ @@
+  - It's a private package and you forgot to add a custom repository to find it
++ - It's a private package and you forgot to configure the required authentication credentials
+ 
+ Read &lt;https://getcomposer.org/doc/articles/troubleshooting.md&gt; for further common problems.
+
+/home/travis/build/composer/composer/tests/Composer/Test/InstallerTest.php:269
+
+2) Composer\Test\InstallerTest::testIntegration with data set "broken-deps-do-not-replace.test" ('broken-deps-do-not-replace.test', 'Broken dependencies should no...y name', null, array(array(array('package', array(array('a/a', '1.0.0'), array('b/b', '1.0.0', array('1.*')), array('c/c', '1.0.0', array('1.0.0'), array('1.0')), array('d/d', '1.0.0', array('1.0.0', '1.0.0'))))), array('1.*', '1.*')), array(), array(), 'install', array(), 'Loading composer repositories...blems.', '', 2)
+Failed asserting that format description matches text.
+--- Expected
++++ Actual
+@@ @@
+  - It's a private package and you forgot to add a custom repository to find it
++ - It's a private package and you forgot to configure the required authentication credentials
+ 
+ Read &lt;https://getcomposer.org/doc/articles/troubleshooting.md&gt; for further common problems.
+
+/home/travis/build/composer/composer/tests/Composer/Test/InstallerTest.php:269</Chunk>
+  </Example>
+  <Example>
+    <Log>PHP/composer@composer/failed/547594407.log</Log>
+    <Keywords>failure, 1), FAILURE</Keywords>
+    <Category>0</Category>
+    <Chunk>1) Composer\Test\InstallerTest::testIntegration with data set "solver-problems.test" ('solver-problems.test', 'Test the error output of solv...blems.', null, array(array(array('package', array(array('unstable/package', '2.0.0-alpha'), array('unstable/package', '1.0.0'), array('requirer/pkg', '1.0.0', array('1.0.0')), array('dependency/pkg', '2.0.0'), array('dependency/pkg', '1.0.0'), array('stable-requiree-excluded/pkg', '1.0.1'), array('stable-requiree-excluded/pkg', '1.0.0')))), array('2.*', '1.*', '1.*', '2.*', '1.0.1')), array(), array(array('stable-requiree-excluded/pkg', '1.0.0')), 'update unstable/package requi...cy/pkg', array(), 'Loading composer repositories...blems.', '\n', 2)
+Failed asserting that format description matches text.
+--- Expected
++++ Actual
+@@ @@
+  - It's a private package and you forgot to add a custom repository to find it
++ - It's a private package and you forgot to configure the required authentication credentials
+ 
+ Read &lt;https://getcomposer.org/doc/articles/troubleshooting.md&gt; for further common problems.
+
+/home/travis/build/composer/composer/tests/Composer/Test/InstallerTest.php:269</Chunk>
+  </Example>
+  <Example>
+    <Log>PHP/composer@composer/failed/551282890.log</Log>
+    <Keywords>error, 1), FAILURE</Keywords>
+    <Category>0</Category>
+    <Chunk>1) Composer\Test\Repository\ComposerRepositoryTest::testCanonicalizeUrl with data set #0 ('https://example.org/path/to/file', '/path/to/file', 'https://example.org')
+Argument 4 passed to Composer\Repository\ComposerRepository::__construct() must be an instance of Composer\Util\HttpDownloader, none given, called in /home/travis/build/composer/composer/tests/Composer/Test/Repository/ComposerRepositoryTest.php on line 231 and defined
+
+/home/travis/build/composer/composer/src/Composer/Repository/ComposerRepository.php:71
+/home/travis/build/composer/composer/tests/Composer/Test/Repository/ComposerRepositoryTest.php:231
+
+2) Composer\Test\Repository\ComposerRepositoryTest::testCanonicalizeUrl with data set #1 ('https://example.org/canonic_url', 'https://example.org/canonic_url', 'https://should-not-see-me.test')
+Argument 4 passed to Composer\Repository\ComposerRepository::__construct() must be an instance of Composer\Util\HttpDownloader, none given, called in /home/travis/build/composer/composer/tests/Composer/Test/Repository/ComposerRepositoryTest.php on line 231 and defined
+
+/home/travis/build/composer/composer/src/Composer/Repository/ComposerRepository.php:71
+/home/travis/build/composer/composer/tests/Composer/Test/Repository/ComposerRepositoryTest.php:231
+
+3) Composer\Test\Repository\ComposerRepositoryTest::testCanonicalizeUrl with data set #2 ('file:///path/to/repository/file', '/path/to/repository/file', 'file:///path/to/repository')
+Argument 4 passed to Composer\Repository\ComposerRepository::__construct() must be an instance of Composer\Util\HttpDownloader, none given, called in /home/travis/build/composer/composer/tests/Composer/Test/Repository/ComposerRepositoryTest.php on line 231 and defined
+
+/home/travis/build/composer/composer/src/Composer/Repository/ComposerRepository.php:71
+/home/travis/build/composer/composer/tests/Composer/Test/Repository/ComposerRepositoryTest.php:231
+
+4) Composer\Test\Repository\ComposerRepositoryTest::testCanonicalizeUrl with data set #3 ('invalid_repo_url', '/path/to/file', 'invalid_repo_url')
+Argument 4 passed to Composer\Repository\ComposerRepository::__construct() must be an instance of Composer\Util\HttpDownloader, none given, called in /home/travis/build/composer/composer/tests/Composer/Test/Repository/ComposerRepositoryTest.php on line 231 and defined
+
+/home/travis/build/composer/composer/src/Composer/Repository/ComposerRepository.php:71
+/home/travis/build/composer/composer/tests/Composer/Test/Repository/ComposerRepositoryTest.php:231
+
+5) Composer\Test\Repository\ComposerRepositoryTest::testCanonicalizeUrl with data set #4 ('https://example.org/path/to/u...lename', '/path/to/unusual_$0_filename', 'https://example.org')
+Argument 4 passed to Composer\Repository\ComposerRepository::__construct() must be an instance of Composer\Util\HttpDownloader, none given, called in /home/travis/build/composer/composer/tests/Composer/Test/Repository/ComposerRepositoryTest.php on line 231 and defined
+
+/home/travis/build/composer/composer/src/Composer/Repository/ComposerRepository.php:71
+/home/travis/build/composer/composer/tests/Composer/Test/Repository/ComposerRepositoryTest.php:231</Chunk>
+  </Example>
+  <Example>
+    <Log>PHP/composer@composer/failed/558512461.log</Log>
+    <Keywords>error, 1), FAILURE</Keywords>
+    <Category>0</Category>
+    <Chunk>1) Composer\Test\ApplicationTest::testDevWarning
+Function ReflectionType::__toString() is deprecated
+
+/home/travis/build/composer/composer/tests/Composer/Test/ApplicationTest.php:25
+
+2) Composer\Test\ApplicationTest::testDevWarningPrevented
+Function ReflectionType::__toString() is deprecated
+
+/home/travis/build/composer/composer/tests/Composer/Test/ApplicationTest.php:83
+/home/travis/build/composer/composer/tests/Composer/Test/ApplicationTest.php:118
+
+3) Composer\Test\ApplicationTest::testDevWarningPreventedAlias
+Function ReflectionType::__toString() is deprecated
+
+/home/travis/build/composer/composer/tests/Composer/Test/ApplicationTest.php:83
+/home/travis/build/composer/composer/tests/Composer/Test/ApplicationTest.php:123</Chunk>
+  </Example>
+  <Example>
+    <Log>PHP/composer@composer/failed/566643668.log</Log>
+    <Keywords>failure, 1), FAILURE</Keywords>
+    <Category>0</Category>
+    <Chunk>1) Composer\Test\Util\StreamContextFactoryTest::testHttpsProxyOverride
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     'http' =&gt; Array (
+-        'proxy' =&gt; 'ssl://woopproxy.net:443'
++        'proxy' =&gt; 'tcp://woopproxy.net:443'
+         'request_fulluri' =&gt; true
+         'method' =&gt; 'GET'
+         'max_redirects' =&gt; 20
+         'follow_location' =&gt; 1
+         'header' =&gt; Array (...)
+     )
+     'ssl' =&gt; Array (...)
+ )
+
+/home/travis/build/composer/composer/tests/Composer/Test/Util/StreamContextFactoryTest.php:189
+
+2) Composer\Test\Util\StreamContextFactoryTest::testSSLProxy with data set #0 ('ssl://proxyserver:443', 'https://proxyserver/')
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     'http' =&gt; Array (
+-        'proxy' =&gt; 'ssl://proxyserver:443'
++        'proxy' =&gt; 'tcp://proxyserver:443'
+         'request_fulluri' =&gt; true
+         'max_redirects' =&gt; 20
+         'follow_location' =&gt; 1
+         'header' =&gt; Array (...)
+     )
+ )
+
+/home/travis/build/composer/composer/tests/Composer/Test/Util/StreamContextFactoryTest.php:209
+
+3) Composer\Test\Util\StreamContextFactoryTest::testSSLProxy with data set #1 ('ssl://proxyserver:8443', 'https://proxyserver:8443')
+Failed asserting that two arrays are equal.
+--- Expected
++++ Actual
+@@ @@
+ Array (
+     'http' =&gt; Array (
+-        'proxy' =&gt; 'ssl://proxyserver:8443'
++        'proxy' =&gt; 'tcp://proxyserver:8443'
+         'request_fulluri' =&gt; true
+         'max_redirects' =&gt; 20
+         'follow_location' =&gt; 1
+         'header' =&gt; Array (...)
+     )
+ )
+
+/home/travis/build/composer/composer/tests/Composer/Test/Util/StreamContextFactoryTest.php:209</Chunk>
+  </Example>
+  <Example>
+    <Log>PHP/composer@composer/failed/566904372.log</Log>
+    <Keywords>ERROR, error, --------------------------------------------------------------</Keywords>
+    <Category>1</Category>
+    <Chunk>Line   src/Composer/Installer.php                                    
+ ------ -------------------------------------------------------------- 
+  1174   Method Composer\Installer::updatePackageUrl() invoked with 8  
+         parameters, 7 required.</Chunk>
+  </Example>
+  <Example>
+    <Log>PHP/composer@composer/failed/566982103.log</Log>
+    <Keywords>ERROR, error, --------------------------------------------------------------</Keywords>
+    <Category>1</Category>
+    <Chunk>Error                                                                                                            
+ ----------------------------------------------------------------------------------------------------------------- 
+  Ignored error pattern ~^Anonymous function has an unused use \$fileName\.$~ was not matched in reported errors.</Chunk>
+  </Example>
+  <Example>
+    <Log>PHP/composer@composer/failed/567101801.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>2</Category>
+    <Chunk>PHP Fatal error:  Class 'Composer\Util\Response' not found in /home/travis/build/composer/composer/src/Composer/Util/RemoteFilesystem.php on line 286</Chunk>
+  </Example>
+  <Example>
+    <Log>PHP/composer@composer/failed/565348117.log</Log>
+    <Keywords>error, 1), FAILURE</Keywords>
+    <Category>2</Category>
+    <Chunk>1) Composer\Test\AllFunctionalTest::testIntegration with data set #0 (Symfony\Component\Finder\SplFileInfo Object (...))</Chunk>
+  </Example>
+</Examples>

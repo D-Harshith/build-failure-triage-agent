@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>Swift/SwiftyJSON@SwiftyJSON/failed/347096816.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>The program 'swift' is currently not installed. To run 'swift' please ask your administrator to install the package 'python-swiftclient'</Chunk>
+  </Example>
+  <Example>
+    <Log>Swift/SwiftyJSON@SwiftyJSON/failed/364917910.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>1</Category>
+    <Chunk>xcodebuild: error: Unable to find a destination matching the provided destination specifier:
+
+		{ platform:tvOS Simulator, name:Apple TV 1080p }</Chunk>
+  </Example>
+  <Example>
+    <Log>Swift/SwiftyJSON@SwiftyJSON/failed/364918572.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>1</Category>
+    <Chunk>xcodebuild: error: Unable to find a destination matching the provided destination specifier:
+
+		{ platform:tvOS Simulator, name:Apple TV 1080p }</Chunk>
+  </Example>
+  <Example>
+    <Log>Swift/SwiftyJSON@SwiftyJSON/failed/431807215.log</Log>
+    <Keywords>❌, , </Keywords>
+    <Category>2</Category>
+    <Chunk>[31m❌  [0m/Users/travis/build/SwiftyJSON/SwiftyJSON/Source/SwiftyJSON.swift:97:2: [31munknown attribute 'dynamicMemberLookup'[0m
+nl
+nl
+nl
+nl@dynamicMemberLookup
+
+[36m ^[0m</Chunk>
+  </Example>
+  <Example>
+    <Log>Swift/SwiftyJSON@SwiftyJSON/failed/431807746.log</Log>
+    <Keywords>❌, , </Keywords>
+    <Category>2</Category>
+    <Chunk>[31m❌  [0m/Users/travis/build/SwiftyJSON/SwiftyJSON/Source/SwiftyJSON.swift:97:2: [31munknown attribute 'dynamicMemberLookup'[0m
+nl
+nl
+nl
+nl@dynamicMemberLookup
+
+[36m ^[0m</Chunk>
+  </Example>
+  <Example>
+    <Log>Swift/SwiftyJSON@SwiftyJSON/failed/431812608.log</Log>
+    <Keywords>❌, , </Keywords>
+    <Category>2</Category>
+    <Chunk>[31m❌  [0m/Users/travis/build/SwiftyJSON/SwiftyJSON/Source/SwiftyJSON.swift:97:2: [31munknown attribute 'dynamicMemberLookup'[0m
+nl
+nl
+nl
+nl@dynamicMemberLookup
+
+[36m ^[0m</Chunk>
+  </Example>
+  <Example>
+    <Log>Swift/SwiftyJSON@SwiftyJSON/failed/431817062.log</Log>
+    <Keywords>❌, , </Keywords>
+    <Category>2</Category>
+    <Chunk>[31m❌  [0m/Users/travis/build/SwiftyJSON/SwiftyJSON/Source/SwiftyJSON.swift:97:2: [31munknown attribute 'dynamicMemberLookup'[0m
+nl
+nl
+nl
+nl@dynamicMemberLookup
+
+[36m ^[0m</Chunk>
+  </Example>
+  <Example>
+    <Log>Swift/SwiftyJSON@SwiftyJSON/failed/431821442.log</Log>
+    <Keywords>❌, , </Keywords>
+    <Category>2</Category>
+    <Chunk>[31m❌  [0m/Users/travis/build/SwiftyJSON/SwiftyJSON/Source/SwiftyJSON.swift:97:2: [31munknown attribute 'dynamicMemberLookup'[0m
+nl
+nl
+nl
+nl@dynamicMemberLookup
+
+[36m ^[0m</Chunk>
+  </Example>
+  <Example>
+    <Log>Swift/SwiftyJSON@SwiftyJSON/failed/431826490.log</Log>
+    <Keywords>❌, , </Keywords>
+    <Category>2</Category>
+    <Chunk>[31m❌  [0m/Users/travis/build/SwiftyJSON/SwiftyJSON/Source/SwiftyJSON.swift:97:2: [31munknown attribute 'dynamicMemberLookup'[0m
+nl
+nl
+nl
+nl@dynamicMemberLookup
+
+[36m ^[0m</Chunk>
+  </Example>
+  <Example>
+    <Log>Swift/SwiftyJSON@SwiftyJSON/failed/512286699.log</Log>
+    <Keywords>❌, , </Keywords>
+    <Category>2</Category>
+    <Chunk>[31m❌  error: Build input file cannot be found: '/Users/travis/build/SwiftyJSON/SwiftyJSON/Source/Info-iOS.plist'[0m</Chunk>
+  </Example>
+</Examples>

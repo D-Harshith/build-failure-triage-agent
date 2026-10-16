@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>Rust/redox-os@redox/failed/357884038.log</Log>
+    <Keywords>Failure, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>* Failure 404 Not Found
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Custom { kind: NotFound, error: StringError("https://static.redox-os.org/pkg/x86_64-unknown-redox/shellstorm.sig not found") }', libcore/result.rs:945:5</Chunk>
+  </Example>
+  <Example>
+    <Log>Rust/redox-os@redox/failed/360624245.log</Log>
+    <Keywords>Failure, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>* Failure 404 Not Found
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Custom { kind: NotFound, error: StringError("https://static.redox-os.org/pkg/x86_64-unknown-redox/keyboard-sfx.sig not found") }', libcore/result.rs:945:5</Chunk>
+  </Example>
+  <Example>
+    <Log>Rust/redox-os@redox/failed/360652670.log</Log>
+    <Keywords>Failure, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>* Failure 404 Not Found
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Custom { kind: NotFound, error: StringError("https://static.redox-os.org/pkg/x86_64-unknown-redox/keyboard-sfx.sig not found") }', libcore/result.rs:945:5</Chunk>
+  </Example>
+  <Example>
+    <Log>Rust/redox-os@redox/failed/371852012.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>1</Category>
+    <Chunk>error[E0407][0m[0m[1m: method `oom` is not a member of trait `Alloc`[0m
+[0m   [0m[0m[1m[38;5;12m--&gt; [0m[0m/home/travis/.cargo/registry/src/github.com-1ecc6299db9ec823/linked_list_allocator-0.5.0/src/lib.rs:139:5[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m139[0m[0m [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m/[0m[0m [0m[0m    fn oom(mut self, _: AllocErr) -&gt; ! {[0m
+[0m[1m[38;5;12m140[0m[0m [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m|[0m[0m [0m[0m        panic!("Out of memory");[0m
+[0m[1m[38;5;12m141[0m[0m [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m|[0m[0m [0m[0m    }[0m
+[0m    [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m|_____^[0m[0m [0m[0m[1m[38;5;9mnot a member of trait `Alloc`[0m
+
+[0m[1m[38;5;9merror[E0407][0m[0m[1m: method `oom` is not a member of trait `Alloc`[0m
+[0m   [0m[0m[1m[38;5;12m--&gt; [0m[0m/home/travis/.cargo/registry/src/github.com-1ecc6299db9ec823/linked_list_allocator-0.5.0/src/lib.rs:186:5[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m186[0m[0m [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m/[0m[0m [0m[0m    fn oom(mut self, _: AllocErr) -&gt; ! {[0m
+[0m[1m[38;5;12m187[0m[0m [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m|[0m[0m [0m[0m        panic!("Out of memory");[0m
+[0m[1m[38;5;12m188[0m[0m [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m|[0m[0m [0m[0m    }[0m
+[0m    [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m|_____^[0m[0m [0m[0m[1m[38;5;9mnot a member of trait `Alloc`[0m
+
+[0m[1m[38;5;9merror[E0053][0m[0m[1m: method `alloc` has an incompatible type for trait[0m
+[0m   [0m[0m[1m[38;5;12m--&gt; [0m[0m/home/travis/.cargo/registry/src/github.com-1ecc6299db9ec823/linked_list_allocator-0.5.0/src/lib.rs:131:5[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m131[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    unsafe fn alloc(mut self, layout: Layout) -&gt; Result*mut u8, AllocErr&gt; {[0m
+[0m    [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[38;5;9m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m [0m[0m[1m[38;5;9mexpected struct `core::ptr::NonNull`, found *-ptr[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected type `[0m[0m[1munsafe fn(mut Heap, core::alloc::Layout) -&gt; core::result::Resultcore::ptr::NonNullcore::alloc::Opaque&gt;, core::alloc::AllocErr&gt;[0m[0m`[0m
+[0m               found type `[0m[0m[1munsafe fn(mut Heap, core::alloc::Layout) -&gt; core::result::Result*mut u8, core::alloc::AllocErr&gt;[0m[0m`[0m
+
+[0m[1m[38;5;9merror[E0053][0m[0m[1m: method `dealloc` has an incompatible type for trait[0m
+[0m   [0m[0m[1m[38;5;12m--&gt; [0m[0m/home/travis/.cargo/registry/src/github.com-1ecc6299db9ec823/linked_list_allocator-0.5.0/src/lib.rs:135:5[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m135[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    unsafe fn dealloc(mut self, ptr: *mut u8, layout: Layout) {[0m
+[0m    [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[38;5;9m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m [0m[0m[1m[38;5;9mexpected struct `core::ptr::NonNull`, found *-ptr[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected type `[0m[0m[1munsafe fn(mut Heap, core::ptr::NonNullcore::alloc::Opaque&gt;, core::alloc::Layout)[0m[0m`[0m
+[0m               found type `[0m[0m[1munsafe fn(mut Heap, *mut u8, core::alloc::Layout)[0m[0m`[0m
+
+[0m[1m[38;5;9merror[E0053][0m[0m[1m: method `alloc` has an incompatible type for trait[0m
+[0m   [0m[0m[1m[38;5;12m--&gt; [0m[0m/home/travis/.cargo/registry/src/github.com-1ecc6299db9ec823/linked_list_allocator-0.5.0/src/lib.rs:178:5[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m178[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    unsafe fn alloc(mut self, layout: Layout) -&gt; Result*mut u8, AllocErr&gt; {[0m
+[0m    [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[38;5;9m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m [0m[0m[1m[38;5;9mexpected struct `core::ptr::NonNull`, found *-ptr[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected type `[0m[0m[1munsafe fn(mut 'a LockedHeap, core::alloc::Layout) -&gt; core::result::Resultcore::ptr::NonNullcore::alloc::Opaque&gt;, core::alloc::AllocErr&gt;[0m[0m`[0m
+[0m               found type `[0m[0m[1munsafe fn(mut 'a LockedHeap, core::alloc::Layout) -&gt; core::result::Result*mut u8, core::alloc::AllocErr&gt;[0m[0m`[0m
+
+[0m[1m[38;5;9merror[E0053][0m[0m[1m: method `dealloc` has an incompatible type for trait[0m
+[0m   [0m[0m[1m[38;5;12m--&gt; [0m[0m/home/travis/.cargo/registry/src/github.com-1ecc6299db9ec823/linked_list_allocator-0.5.0/src/lib.rs:182:5[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m182[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    unsafe fn dealloc(mut self, ptr: *mut u8, layout: Layout) {[0m
+[0m    [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[38;5;9m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m [0m[0m[1m[38;5;9mexpected struct `core::ptr::NonNull`, found *-ptr[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected type `[0m[0m[1munsafe fn(mut 'a LockedHeap, core::ptr::NonNullcore::alloc::Opaque&gt;, core::alloc::Layout)[0m[0m`[0m
+[0m               found type `[0m[0m[1munsafe fn(mut 'a LockedHeap, *mut u8, core::alloc::Layout)[0m[0m`[0m</Chunk>
+  </Example>
+  <Example>
+    <Log>Rust/redox-os@redox/failed/372586589.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>1</Category>
+    <Chunk>error[E0407][0m[0m[1m: method `oom` is not a member of trait `Alloc`[0m
+[0m   [0m[0m[1m[38;5;12m--&gt; [0m[0m/home/travis/.cargo/registry/src/github.com-1ecc6299db9ec823/linked_list_allocator-0.5.0/src/lib.rs:139:5[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m139[0m[0m [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m/[0m[0m [0m[0m    fn oom(mut self, _: AllocErr) -&gt; ! {[0m
+[0m[1m[38;5;12m140[0m[0m [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m|[0m[0m [0m[0m        panic!("Out of memory");[0m
+[0m[1m[38;5;12m141[0m[0m [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m|[0m[0m [0m[0m    }[0m
+[0m    [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m|_____^[0m[0m [0m[0m[1m[38;5;9mnot a member of trait `Alloc`[0m
+
+[0m[1m[38;5;9merror[E0407][0m[0m[1m: method `oom` is not a member of trait `Alloc`[0m
+[0m   [0m[0m[1m[38;5;12m--&gt; [0m[0m/home/travis/.cargo/registry/src/github.com-1ecc6299db9ec823/linked_list_allocator-0.5.0/src/lib.rs:186:5[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m186[0m[0m [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m/[0m[0m [0m[0m    fn oom(mut self, _: AllocErr) -&gt; ! {[0m
+[0m[1m[38;5;12m187[0m[0m [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m|[0m[0m [0m[0m        panic!("Out of memory");[0m
+[0m[1m[38;5;12m188[0m[0m [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m|[0m[0m [0m[0m    }[0m
+[0m    [0m[0m[1m[38;5;12m| [0m[0m[1m[38;5;9m|_____^[0m[0m [0m[0m[1m[38;5;9mnot a member of trait `Alloc`[0m
+
+[0m[1m[38;5;9merror[E0053][0m[0m[1m: method `alloc` has an incompatible type for trait[0m
+[0m   [0m[0m[1m[38;5;12m--&gt; [0m[0m/home/travis/.cargo/registry/src/github.com-1ecc6299db9ec823/linked_list_allocator-0.5.0/src/lib.rs:131:5[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m131[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    unsafe fn alloc(mut self, layout: Layout) -&gt; Result*mut u8, AllocErr&gt; {[0m
+[0m    [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[38;5;9m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m [0m[0m[1m[38;5;9mexpected struct `core::ptr::NonNull`, found *-ptr[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected type `[0m[0m[1munsafe fn(mut Heap, core::alloc::Layout) -&gt; core::result::Resultcore::ptr::NonNullcore::alloc::Opaque&gt;, core::alloc::AllocErr&gt;[0m[0m`[0m
+[0m               found type `[0m[0m[1munsafe fn(mut Heap, core::alloc::Layout) -&gt; core::result::Result*mut u8, core::alloc::AllocErr&gt;[0m[0m`[0m
+
+[0m[1m[38;5;9merror[E0053][0m[0m[1m: method `dealloc` has an incompatible type for trait[0m
+[0m   [0m[0m[1m[38;5;12m--&gt; [0m[0m/home/travis/.cargo/registry/src/github.com-1ecc6299db9ec823/linked_list_allocator-0.5.0/src/lib.rs:135:5[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m135[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    unsafe fn dealloc(mut self, ptr: *mut u8, layout: Layout) {[0m
+[0m    [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[38;5;9m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m [0m[0m[1m[38;5;9mexpected struct `core::ptr::NonNull`, found *-ptr[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected type `[0m[0m[1munsafe fn(mut Heap, core::ptr::NonNullcore::alloc::Opaque&gt;, core::alloc::Layout)[0m[0m`[0m
+[0m               found type `[0m[0m[1munsafe fn(mut Heap, *mut u8, core::alloc::Layout)[0m[0m`[0m
+
+[0m[1m[38;5;9merror[E0053][0m[0m[1m: method `alloc` has an incompatible type for trait[0m
+[0m   [0m[0m[1m[38;5;12m--&gt; [0m[0m/home/travis/.cargo/registry/src/github.com-1ecc6299db9ec823/linked_list_allocator-0.5.0/src/lib.rs:178:5[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m178[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    unsafe fn alloc(mut self, layout: Layout) -&gt; Result*mut u8, AllocErr&gt; {[0m
+[0m    [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[38;5;9m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m [0m[0m[1m[38;5;9mexpected struct `core::ptr::NonNull`, found *-ptr[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected type `[0m[0m[1munsafe fn(mut 'a LockedHeap, core::alloc::Layout) -&gt; core::result::Resultcore::ptr::NonNullcore::alloc::Opaque&gt;, core::alloc::AllocErr&gt;[0m[0m`[0m
+[0m               found type `[0m[0m[1munsafe fn(mut 'a LockedHeap, core::alloc::Layout) -&gt; core::result::Result*mut u8, core::alloc::AllocErr&gt;[0m[0m`[0m
+
+[0m[1m[38;5;9merror[E0053][0m[0m[1m: method `dealloc` has an incompatible type for trait[0m
+[0m   [0m[0m[1m[38;5;12m--&gt; [0m[0m/home/travis/.cargo/registry/src/github.com-1ecc6299db9ec823/linked_list_allocator-0.5.0/src/lib.rs:182:5[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m[1m[38;5;12m182[0m[0m [0m[0m[1m[38;5;12m| [0m[0m    unsafe fn dealloc(mut self, ptr: *mut u8, layout: Layout) {[0m
+[0m    [0m[0m[1m[38;5;12m| [0m[0m    [0m[0m[1m[38;5;9m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m [0m[0m[1m[38;5;9mexpected struct `core::ptr::NonNull`, found *-ptr[0m
+[0m    [0m[0m[1m[38;5;12m|[0m
+[0m    [0m[0m[1m[38;5;12m= [0m[0m[1mnote[0m[0m: expected type `[0m[0m[1munsafe fn(mut 'a LockedHeap, core::ptr::NonNullcore::alloc::Opaque&gt;, core::alloc::Layout)[0m[0m`[0m
+[0m               found type `[0m[0m[1munsafe fn(mut 'a LockedHeap, *mut u8, core::alloc::Layout)[0m[0m`[0m</Chunk>
+  </Example>
+  <Example>
+    <Log>Rust/redox-os@redox/failed/387092985.log</Log>
+    <Keywords>Failure, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>* Failure 404 Not Found
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Custom { kind: NotFound, error: StringError("https://static.redox-os.org/pkg/x86_64-unknown-redox/ipcd.sig not found") }', libcore/result.rs:945:5</Chunk>
+  </Example>
+  <Example>
+    <Log>Rust/redox-os@redox/failed/387097216.log</Log>
+    <Keywords>Failure, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>* Failure 404 Not Found
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Custom { kind: NotFound, error: StringError("https://static.redox-os.org/pkg/x86_64-unknown-redox/ipcd.sig not found") }', libcore/result.rs:945:5</Chunk>
+  </Example>
+  <Example>
+    <Log>Rust/redox-os@redox/failed/387097804.log</Log>
+    <Keywords>Failure, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>* Failure 404 Not Found
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Custom { kind: NotFound, error: StringError("https://static.redox-os.org/pkg/x86_64-unknown-redox/ipcd.sig not found") }', libcore/result.rs:945:5</Chunk>
+  </Example>
+  <Example>
+    <Log>Rust/redox-os@redox/failed/387174339.log</Log>
+    <Keywords>Failure, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>* Failure 404 Not Found
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Custom { kind: NotFound, error: StringError("https://static.redox-os.org/pkg/x86_64-unknown-redox/ipcd.sig not found") }', libcore/result.rs:945:5</Chunk>
+  </Example>
+  <Example>
+    <Log>Rust/redox-os@redox/failed/391353410.log</Log>
+    <Keywords>No such file or directory, , </Keywords>
+    <Category>2</Category>
+    <Chunk>fusermount: bad mount point build/filesystem/: No such file or directory
+rm -rf build
+make: *** No rule to make target `travis'.  Stop.</Chunk>
+  </Example>
+</Examples>

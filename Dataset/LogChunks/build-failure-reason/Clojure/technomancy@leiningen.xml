@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>Clojure/technomancy@leiningen/failed/239201655.log</Log>
+    <Keywords>exited with 1, Could not, </Keywords>
+    <Category>0</Category>
+    <Chunk>Could not find artifact clojure-complete:clojure-complete:jar:0.2.4 in central (https://repo1.maven.org/maven2/)
+Could not transfer artifact clojure-complete:clojure-complete:jar:0.2.4 from/to clojars (https://repo.clojars.org/): Received fatal alert: protocol_version
+Could not transfer artifact clojure-complete:clojure-complete:pom:0.2.4 from/to clojars (https://repo.clojars.org/): Received fatal alert: protocol_version
+This could be due to a typo in :dependencies, file system permissions, or network issues.
+If you are behind a proxy, try setting the 'http_proxy' environment variable.
+Could not find artifact clojure-complete:clojure-complete:jar:0.2.4 in central (https://repo1.maven.org/maven2/)
+Could not transfer artifact clojure-complete:clojure-complete:jar:0.2.4 from/to clojars (https://repo.clojars.org/): Received fatal alert: protocol_version
+Could not transfer artifact clojure-complete:clojure-complete:pom:0.2.4 from/to clojars (https://repo.clojars.org/): Received fatal alert: protocol_version
+This could be due to a typo in :dependencies, file system permissions, or network issues.
+If you are behind a proxy, try setting the 'http_proxy' environment variable.</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/technomancy@leiningen/failed/239339113.log</Log>
+    <Keywords>exited with 1, Could not, </Keywords>
+    <Category>0</Category>
+    <Chunk>Could not find artifact clojure-complete:clojure-complete:jar:0.2.4 in central (https://repo1.maven.org/maven2/)
+Could not transfer artifact clojure-complete:clojure-complete:jar:0.2.4 from/to clojars (https://repo.clojars.org/): Received fatal alert: protocol_version
+Could not transfer artifact clojure-complete:clojure-complete:pom:0.2.4 from/to clojars (https://repo.clojars.org/): Received fatal alert: protocol_version
+This could be due to a typo in :dependencies, file system permissions, or network issues.
+If you are behind a proxy, try setting the 'http_proxy' environment variable.
+Could not find artifact clojure-complete:clojure-complete:jar:0.2.4 in central (https://repo1.maven.org/maven2/)
+Could not transfer artifact clojure-complete:clojure-complete:jar:0.2.4 from/to clojars (https://repo.clojars.org/): Received fatal alert: protocol_version
+Could not transfer artifact clojure-complete:clojure-complete:pom:0.2.4 from/to clojars (https://repo.clojars.org/): Received fatal alert: protocol_version
+This could be due to a typo in :dependencies, file system permissions, or network issues.
+If you are behind a proxy, try setting the 'http_proxy' environment variable.</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/technomancy@leiningen/failed/239388390.log</Log>
+    <Keywords>exited with 1, Could not, </Keywords>
+    <Category>0</Category>
+    <Chunk>Could not find artifact clojure-complete:clojure-complete:jar:0.2.4 in central (https://repo1.maven.org/maven2/)
+Could not transfer artifact clojure-complete:clojure-complete:jar:0.2.4 from/to clojars (https://repo.clojars.org/): Received fatal alert: protocol_version
+Could not transfer artifact clojure-complete:clojure-complete:pom:0.2.4 from/to clojars (https://repo.clojars.org/): Received fatal alert: protocol_version
+This could be due to a typo in :dependencies, file system permissions, or network issues.
+If you are behind a proxy, try setting the 'http_proxy' environment variable.
+Could not find artifact clojure-complete:clojure-complete:jar:0.2.4 in central (https://repo1.maven.org/maven2/)
+Could not transfer artifact clojure-complete:clojure-complete:jar:0.2.4 from/to clojars (https://repo.clojars.org/): Received fatal alert: protocol_version
+Could not transfer artifact clojure-complete:clojure-complete:pom:0.2.4 from/to clojars (https://repo.clojars.org/): Received fatal alert: protocol_version
+This could be due to a typo in :dependencies, file system permissions, or network issues.
+If you are behind a proxy, try setting the 'http_proxy' environment variable.</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/technomancy@leiningen/failed/239432824.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>1</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/technomancy@leiningen/failed/240096317.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>1</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/technomancy@leiningen/failed/242689049.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>1</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/technomancy@leiningen/failed/242695567.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>1</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/technomancy@leiningen/failed/243016828.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>1</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/technomancy@leiningen/failed/243103322.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>1</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/technomancy@leiningen/failed/243309632.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>1</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-2.2.6/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+</Examples>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>Java/ReactiveX@RxJava/failed/561008032.log</Log>
+    <Keywords>FAILED, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>io.reactivex.internal.operators.observable.ObservableRefCountTest &gt; publishNoLeak FAILED
+    java.lang.AssertionError: 13,928,704 -&gt; 113,907,376
+        at org.junit.Assert.fail(Assert.java:88)
+        at org.junit.Assert.assertTrue(Assert.java:41)
+        at io.reactivex.internal.operators.observable.ObservableRefCountTest.publishNoLeak(ObservableRefCountTest.java:731)</Chunk>
+  </Example>
+  <Example>
+    <Log>Java/ReactiveX@RxJava/failed/561016934.log</Log>
+    <Keywords>FAILED, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>io.reactivex.internal.operators.observable.ObservableRefCountTest &gt; publishNoLeak FAILED
+    java.lang.AssertionError: 12,973,696 -&gt; 112,950,472
+        at org.junit.Assert.fail(Assert.java:88)
+        at org.junit.Assert.assertTrue(Assert.java:41)
+        at io.reactivex.internal.operators.observable.ObservableRefCountTest.publishNoLeak(ObservableRefCountTest.java:733)</Chunk>
+  </Example>
+  <Example>
+    <Log>Java/ReactiveX@RxJava/failed/562514757.log</Log>
+    <Keywords>FAILED, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>io.reactivex.internal.operators.flowable.FlowableRefCountTest &gt; publishNoLeak FAILED
+    java.lang.AssertionError: 20,471,656 -&gt; 116,032,736
+        at org.junit.Assert.fail(Assert.java:88)
+        at org.junit.Assert.assertTrue(Assert.java:41)
+        at io.reactivex.internal.operators.flowable.FlowableRefCountTest.publishNoLeak(FlowableRefCountTest.java:761)</Chunk>
+  </Example>
+  <Example>
+    <Log>Java/ReactiveX@RxJava/failed/563267830.log</Log>
+    <Keywords>FAILED, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>io.reactivex.internal.operators.flowable.FlowableRefCountTest &gt; publishNoLeak FAILED
+    java.lang.AssertionError: 19,199,656 -&gt; 115,794,992
+        at org.junit.Assert.fail(Assert.java:88)
+        at org.junit.Assert.assertTrue(Assert.java:41)
+        at io.reactivex.internal.operators.flowable.FlowableRefCountTest.publishNoLeak(FlowableRefCountTest.java:761)</Chunk>
+  </Example>
+  <Example>
+    <Log>Java/ReactiveX@RxJava/failed/564360281.log</Log>
+    <Keywords>FAILED, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>io.reactivex.observers.SerializedObserverTest &gt; notificationDelay FAILED
+    java.lang.AssertionError: expected same:&lt;Thread[pool-16-thread-1,5,FailOnTimeoutGroup]&gt; was not:&lt;Thread[pool-17-thread-1,5,FailOnTimeoutGroup]&gt;
+        at org.junit.Assert.fail(Assert.java:88)
+        at org.junit.Assert.failNotSame(Assert.java:828)
+        at org.junit.Assert.assertSame(Assert.java:771)
+        at org.junit.Assert.assertSame(Assert.java:782)
+        at io.reactivex.observers.SerializedObserverTest.notificationDelay(SerializedObserverTest.java:320)</Chunk>
+  </Example>
+  <Example>
+    <Log>Java/ReactiveX@RxJava/failed/564360351.log</Log>
+    <Keywords>FAILED, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>io.reactivex.observers.SerializedObserverTest &gt; notificationDelay FAILED
+    java.lang.AssertionError: expected same:&lt;Thread[pool-16-thread-1,5,FailOnTimeoutGroup]&gt; was not:&lt;Thread[pool-17-thread-1,5,FailOnTimeoutGroup]&gt;
+        at org.junit.Assert.fail(Assert.java:88)
+        at org.junit.Assert.failNotSame(Assert.java:828)
+        at org.junit.Assert.assertSame(Assert.java:771)
+        at org.junit.Assert.assertSame(Assert.java:782)
+        at io.reactivex.observers.SerializedObserverTest.notificationDelay(SerializedObserverTest.java:320)</Chunk>
+  </Example>
+  <Example>
+    <Log>Java/ReactiveX@RxJava/failed/565360975.log</Log>
+    <Keywords>FAILED, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>io.reactivex.internal.operators.observable.ObservableRefCountAltTest &gt; publishNoLeak FAILED
+    java.lang.AssertionError: 9,283,448 -&gt; 109,750,368
+        at org.junit.Assert.fail(Assert.java:88)
+        at org.junit.Assert.assertTrue(Assert.java:41)
+        at io.reactivex.internal.operators.observable.ObservableRefCountAltTest.publishNoLeak(ObservableRefCountAltTest.java:725)</Chunk>
+  </Example>
+  <Example>
+    <Log>Java/ReactiveX@RxJava/failed/565366738.log</Log>
+    <Keywords>FAILED, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>io.reactivex.internal.operators.observable.ObservableRefCountAltTest &gt; publishNoLeak FAILED
+    java.lang.AssertionError: 9,680,016 -&gt; 109,192,144
+        at org.junit.Assert.fail(Assert.java:88)
+        at org.junit.Assert.assertTrue(Assert.java:41)
+        at io.reactivex.internal.operators.observable.ObservableRefCountAltTest.publishNoLeak(ObservableRefCountAltTest.java:725)</Chunk>
+  </Example>
+  <Example>
+    <Log>Java/ReactiveX@RxJava/failed/565371172.log</Log>
+    <Keywords>FAILED, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>io.reactivex.internal.operators.observable.ObservableRefCountAltTest &gt; publishNoLeak FAILED
+    java.lang.AssertionError: 9,782,280 -&gt; 109,128,528
+        at org.junit.Assert.fail(Assert.java:88)
+        at org.junit.Assert.assertTrue(Assert.java:41)
+        at io.reactivex.internal.operators.observable.ObservableRefCountAltTest.publishNoLeak(ObservableRefCountAltTest.java:725)</Chunk>
+  </Example>
+  <Example>
+    <Log>Java/ReactiveX@RxJava/failed/565378954.log</Log>
+    <Keywords>FAILED, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>o.reactivex.validators.TooManyEmptyNewLines &gt; tooManyEmptyNewLines2 FAILED
+    java.lang.AssertionError: The following code pattern was found: \R\R\R
+    FlowableTakeUntilPredicateTest.java#L33
+    Found 1 instances
+        at io.reactivex.validators.TooManyEmptyNewLines.findPattern(TooManyEmptyNewLines.java:131)
+        at io.reactivex.validators.TooManyEmptyNewLines.tooManyEmptyNewLines2(TooManyEmptyNewLines.java:30)</Chunk>
+  </Example>
+</Examples>

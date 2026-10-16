@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>VimL/junegunn@vim-plug/failed/398587466.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>The command "test/run !" exited with 1.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/junegunn@vim-plug/failed/413520039.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>The command "test/run !" exited with 1.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/junegunn@vim-plug/failed/427001960.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>The command "test/run !" exited with 1.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/junegunn@vim-plug/failed/427130117.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>The command "test/run !" exited with 1.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/junegunn@vim-plug/failed/427130135.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>The command "test/run !" exited with 1.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/junegunn@vim-plug/failed/445184806.log</Log>
+    <Keywords>fatal, , </Keywords>
+    <Category>1</Category>
+    <Chunk>fatal: unable to access 'https://github.com/vim/vim/': Empty reply from server</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/junegunn@vim-plug/failed/446003299.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>The command "test/run !" exited with 1.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/junegunn@vim-plug/failed/499351600.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>The command "test/run !" exited with 1.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/junegunn@vim-plug/failed/551582171.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>The command "test/run !" exited with 1.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/junegunn@vim-plug/failed/567393250.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>The command "test/run !" exited with 1.</Chunk>
+  </Example>
+</Examples>

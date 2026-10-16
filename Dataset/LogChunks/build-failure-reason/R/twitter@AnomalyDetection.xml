@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>R/twitter@AnomalyDetection/failed/45992929.log</Log>
+    <Keywords>ERROR, required but not available, </Keywords>
+    <Category>0</Category>
+    <Chunk>Package required but not available: ‘lubridate’</Chunk>
+  </Example>
+  <Example>
+    <Log>R/twitter@AnomalyDetection/failed/45994776.log</Log>
+    <Keywords>ERROR, failed, </Keywords>
+    <Category>1</Category>
+    <Chunk>Running ‘testthat.R’
+ ERROR
+Running the tests in ‘tests/testthat.R’ failed.
+Last 13 lines of output:
+  Type 'license()' or 'licence()' for distribution details.
+  
+  R is a collaborative project with many contributors.
+  Type 'contributors()' for more information and
+  'citation()' on how to cite R or R packages in publications.
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  &gt; library('testthat')
+  Error in library("testthat") : there is no package called 'testthat'</Chunk>
+  </Example>
+  <Example>
+    <Log>R/twitter@AnomalyDetection/failed/46403875.log</Log>
+    <Keywords>ERROR, failed, Error</Keywords>
+    <Category>2</Category>
+    <Chunk>Running examples in ‘AnomalyDetection-Ex.R’ failed
+The error most likely occurred in:
+
+&gt; base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+&gt; ### Name: AnomalyDetectionTs
+&gt; ### Title: Anomaly Detection Using Seasonal Hybrid ESD Test
+&gt; ### Aliases: AnomalyDetectionTs
+&gt; ### Keywords: datasets
+&gt; 
+&gt; ### ** Examples
+&gt; 
+&gt; data(raw_data)
+&gt; AnomalyDetectionTs(raw_data, max_anoms=0.02, direction='both', plot=TRUE)
+Error in format_timestamp(data_decomp) : 
+  could not find function "str_detect"
+Calls: AnomalyDetectionTs -&gt; detect_anoms -&gt; format_timestamp</Chunk>
+  </Example>
+  <Example>
+    <Log>R/twitter@AnomalyDetection/failed/48330777.log</Log>
+    <Keywords>ERROR, failed, </Keywords>
+    <Category>3</Category>
+    <Chunk>Installation failed.
+See ‘/home/travis/build/twitter/AnomalyDetection/AnomalyDetection.Rcheck/00install.out’ for details.</Chunk>
+  </Example>
+  <Example>
+    <Log>R/twitter@AnomalyDetection/failed/56908634.log</Log>
+    <Keywords>ERROR, failed, </Keywords>
+    <Category>1</Category>
+    <Chunk>Running ‘testthat.R’
+ ERROR
+Running the tests in ‘tests/testthat.R’ failed.
+Last 13 lines of output:
+  R is a collaborative project with many contributors.
+  Type 'contributors()' for more information and
+  'citation()' on how to cite R or R packages in publications.
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  &gt; library('testthat')
+  &gt; test_check("AnomalyDetection")
+  Loading required package: AnomalyDetection
+  Error: No tests found for AnomalyDetection</Chunk>
+  </Example>
+  <Example>
+    <Log>R/twitter@AnomalyDetection/failed/57198542.log</Log>
+    <Keywords>ERROR, failed, </Keywords>
+    <Category>1</Category>
+    <Chunk>Running ‘testthat.R’
+ ERROR
+Running the tests in ‘tests/testthat.R’ failed.
+Last 13 lines of output:
+  R is a collaborative project with many contributors.
+  Type 'contributors()' for more information and
+  'citation()' on how to cite R or R packages in publications.
+  
+  Type 'demo()' for some demos, 'help()' for on-line help, or
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  &gt; library('testthat')
+  &gt; test_check("AnomalyDetection")
+  Loading required package: AnomalyDetection
+  Error: No tests found for AnomalyDetection</Chunk>
+  </Example>
+  <Example>
+    <Log>R/twitter@AnomalyDetection/failed/57281902.log</Log>
+    <Keywords>ERROR, failed, </Keywords>
+    <Category>1</Category>
+    <Chunk>Running ‘testthat.R’
+ ERROR
+Running the tests in ‘tests/testthat.R’ failed.
+Last 13 lines of output:
+  'help.start()' for an HTML browser interface to help.
+  Type 'q()' to quit R.
+  
+  &gt; library('testthat')
+  &gt; test_check("AnomalyDetection")
+  Loading required package: AnomalyDetection
+  Error in parse(text = lines, n = -1, srcfile = srcfile) : 
+    test-ts.R:4:1: unexpected '&lt;'
+  3: 
+  4: &lt;
+     ^
+  Calls: test_check ... lapply -&gt; FUN -&gt; .test_file -&gt; sys.source2 -&gt; parse</Chunk>
+  </Example>
+  <Example>
+    <Log>R/twitter@AnomalyDetection/failed/74461732.log</Log>
+    <Keywords>ERROR, failed, </Keywords>
+    <Category>1</Category>
+    <Chunk>Running ‘testthat.R’ [19s/19s]
+ ERROR
+Running the tests in ‘tests/testthat.R’ failed.
+Last 13 lines of output:
+  
+  &gt; library('testthat')
+  &gt; test_check("AnomalyDetection") 
+  Loading required package: AnomalyDetection
+  1. Failure (at test-ts.R#29): average the count for each unique timestamp if the timestamps are not unique 
+  AnomalyDetectionTs(raw_data, max_anoms = 0.02, direction = "both", plot = TRUE, unique_by_time = TRUE) threw an error
+  
+  testthat results ================================================================
+  OK: 30 SKIPPED: 0 FAILED: 1
+  1. Failure (at test-ts.R#29): average the count for each unique timestamp if the timestamps are not unique 
+  
+  Error: testthat unit tests failed</Chunk>
+  </Example>
+  <Example>
+    <Log>R/twitter@AnomalyDetection/failed/74708143.log</Log>
+    <Keywords>ERROR, failed, </Keywords>
+    <Category>1</Category>
+    <Chunk>Running ‘testthat.R’ [19s/19s]
+ ERROR
+Running the tests in ‘tests/testthat.R’ failed.
+Last 13 lines of output:
+  
+  &gt; library('testthat')
+  &gt; test_check("AnomalyDetection") 
+  Loading required package: AnomalyDetection
+  1. Failure (at test-ts.R#29): average the count for each unique timestamp if the timestamps are not unique 
+  AnomalyDetectionTs(raw_data, max_anoms = 0.02, direction = "both", plot = TRUE, unique_by_time = TRUE) threw an error
+  
+  testthat results ================================================================
+  OK: 30 SKIPPED: 0 FAILED: 1
+  1. Failure (at test-ts.R#29): average the count for each unique timestamp if the timestamps are not unique 
+  
+  Error: testthat unit tests failed</Chunk>
+  </Example>
+</Examples>

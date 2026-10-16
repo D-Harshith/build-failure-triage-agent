@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>TeX/cplusplus@draft/failed/566217161.log</Log>
+    <Keywords>Overfull \hbox, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>Overfull \hbox (19.64194pt too wide) in paragraph at lines 7256--7268
+Overfull \hbox (19.98665pt too wide) in paragraph at lines 7256--7268</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/cplusplus@draft/failed/566236411.log</Log>
+    <Keywords>Overfull \hbox, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>Overfull \hbox (19.64194pt too wide) in paragraph at lines 7256--7268
+Overfull \hbox (19.98665pt too wide) in paragraph at lines 7256--7268</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/cplusplus@draft/failed/566259827.log</Log>
+    <Keywords>Overfull \hbox, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>Overfull \hbox (2.26166pt too wide) in paragraph at lines 4826--4842</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/cplusplus@draft/failed/566261609.log</Log>
+    <Keywords>Overfull \hbox, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>Overfull \hbox (2.26166pt too wide) in paragraph at lines 4826--4842</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/cplusplus@draft/failed/566741544.log</Log>
+    <Keywords>Overfull \hbox, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>Overfull \hbox (2.26166pt too wide) in paragraph at lines 4826--4842</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/cplusplus@draft/failed/568239097.log</Log>
+    <Keywords>Overfull \hbox, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>Overfull \hbox (12.22148pt too wide) in paragraph at lines 17998--18003</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/cplusplus@draft/failed/568376150.log</Log>
+    <Keywords>Overfull \hbox, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>Overfull \hbox (3.46672pt too wide) in paragraph at lines 2151--2172
+Overfull \hbox (13.61404pt too wide) in paragraph at lines 2151--2172</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/cplusplus@draft/failed/568620326.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>LaTeX Warning: There were undefined references.</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/cplusplus@draft/failed/568621273.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>LaTeX Warning: There were undefined references.</Chunk>
+  </Example>
+  <Example>
+    <Log>TeX/cplusplus@draft/failed/568621492.log</Log>
+    <Keywords>exited with 1, , </Keywords>
+    <Category>0</Category>
+    <Chunk>LaTeX Warning: There were undefined references.</Chunk>
+  </Example>
+</Examples>

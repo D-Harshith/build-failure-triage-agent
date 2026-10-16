@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>Perl/sjdy521@Mojo-Webqq/failed/332708478.log</Log>
+    <Keywords>error, Failed, </Keywords>
+    <Category>0</Category>
+    <Chunk>t/https.t ........ Connection error: Connect timeout at t/https.t line 17.
+# Looks like your test exited with 11 before it could output anything.</Chunk>
+  </Example>
+  <Example>
+    <Log>Perl/sjdy521@Mojo-Webqq/failed/341246416.log</Log>
+    <Keywords>error, Failed, </Keywords>
+    <Category>0</Category>
+    <Chunk>t/https.t ........ Connection error: Connect timeout at t/https.t line 17.
+# Looks like your test exited with 11 before it could output anything.</Chunk>
+  </Example>
+  <Example>
+    <Log>Perl/sjdy521@Mojo-Webqq/failed/345524470.log</Log>
+    <Keywords>error, Failed, </Keywords>
+    <Category>0</Category>
+    <Chunk>t/https.t ........ Connection error: Connect timeout at t/https.t line 17.
+# Looks like your test exited with 11 before it could output anything.</Chunk>
+  </Example>
+  <Example>
+    <Log>Perl/sjdy521@Mojo-Webqq/failed/347585795.log</Log>
+    <Keywords>error, Failed, </Keywords>
+    <Category>0</Category>
+    <Chunk>t/https.t ........ Connection error: Connect timeout at t/https.t line 17.
+# Looks like your test exited with 11 before it could output anything.</Chunk>
+  </Example>
+  <Example>
+    <Log>Perl/sjdy521@Mojo-Webqq/failed/367594701.log</Log>
+    <Keywords>error, Failed, </Keywords>
+    <Category>0</Category>
+    <Chunk>t/https.t ........ Connection error: Connect timeout at t/https.t line 17.
+# Looks like your test exited with 115 before it could output anything.</Chunk>
+  </Example>
+  <Example>
+    <Log>Perl/sjdy521@Mojo-Webqq/failed/367594706.log</Log>
+    <Keywords>error, Failed, </Keywords>
+    <Category>0</Category>
+    <Chunk>t/https.t ........ Connection error: Connect timeout at t/https.t line 17.
+# Looks like your test exited with 115 before it could output anything.</Chunk>
+  </Example>
+  <Example>
+    <Log>Perl/sjdy521@Mojo-Webqq/failed/368688524.log</Log>
+    <Keywords>error, Failed, </Keywords>
+    <Category>0</Category>
+    <Chunk>t/https.t ........ Connection error: Connect timeout at t/https.t line 17.
+# Looks like your test exited with 115 before it could output anything.</Chunk>
+  </Example>
+  <Example>
+    <Log>Perl/sjdy521@Mojo-Webqq/failed/369927984.log</Log>
+    <Keywords>error, Failed, </Keywords>
+    <Category>0</Category>
+    <Chunk>t/https.t ........ Connection error: Connect timeout at t/https.t line 17.
+# Looks like your test exited with 115 before it could output anything.</Chunk>
+  </Example>
+  <Example>
+    <Log>Perl/sjdy521@Mojo-Webqq/failed/369957693.log</Log>
+    <Keywords>error, Failed, </Keywords>
+    <Category>0</Category>
+    <Chunk>t/https.t ........ Connection error: Connect timeout at t/https.t line 17.
+# Looks like your test exited with 115 before it could output anything.</Chunk>
+  </Example>
+  <Example>
+    <Log>Perl/sjdy521@Mojo-Webqq/failed/373752512.log</Log>
+    <Keywords>error, Failed, </Keywords>
+    <Category>0</Category>
+    <Chunk>t/https.t ........ Connection error: Connect timeout at t/https.t line 17.
+# Looks like your test exited with 115 before it could output anything.</Chunk>
+  </Example>
+</Examples>

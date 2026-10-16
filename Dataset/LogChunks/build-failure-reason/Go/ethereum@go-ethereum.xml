@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>Go/ethereum@go-ethereum/failed/566009484.log</Log>
+    <Keywords>FAIL, , </Keywords>
+    <Category>0</Category>
+    <Chunk>FAIL: TestBoundedForkedSync64Fast (0.18s)
+    downloader_test.go:679: failed to synchronise blocks: retrieved hash chain is invalid</Chunk>
+  </Example>
+  <Example>
+    <Log>Go/ethereum@go-ethereum/failed/566352197.log</Log>
+    <Keywords>error, fatal, </Keywords>
+    <Category>1</Category>
+    <Chunk>../vendor/github.com/elastic/gosigar/sigar_darwin.go:12:10: fatal error: 'libproc.h' file not found
+
+#include &lt;libproc.h&gt;
+
+         ^~~~~~~~~~~
+
+1 error generated.</Chunk>
+  </Example>
+  <Example>
+    <Log>Go/ethereum@go-ethereum/failed/566363943.log</Log>
+    <Keywords>FAIL, , </Keywords>
+    <Category>0</Category>
+    <Chunk>FAIL: TestSimulation (10.06s)
+    peer_test.go:235: failed to start the first server. err: listen udp 127.0.0.1:42613: bind: address already in use
+    peer_test.go:507: Failed to start all the servers, running: 7</Chunk>
+  </Example>
+  <Example>
+    <Log>Go/ethereum@go-ethereum/failed/566442292.log</Log>
+    <Keywords>warning, , </Keywords>
+    <Category>2</Category>
+    <Chunk>&gt;&gt;&gt; /home/travis/gopath/src/github.com/ethereum/go-ethereum/build/bin/gometalinter.v2 --vendor --tests --deadline=2m --disable-all --enable=goimports --enable=varcheck --enable=vet --enable=gofmt --enable=misspell --enable=goconst --min-occurrences=6 ./...
+eth/config.go:1::warning: file is not goimported (goimports)
+eth/config.go:1::warning: file is not gofmted with -s (gofmt)</Chunk>
+  </Example>
+  <Example>
+    <Log>Go/ethereum@go-ethereum/failed/566644156.log</Log>
+    <Keywords>FAIL, , </Keywords>
+    <Category>0</Category>
+    <Chunk>FAIL: TestSimulation (10.07s)
+    peer_test.go:235: failed to start the first server. err: listen udp 127.0.0.1:41777: bind: address already in use
+    peer_test.go:507: Failed to start all the servers, running: 7</Chunk>
+  </Example>
+  <Example>
+    <Log>Go/ethereum@go-ethereum/failed/566757022.log</Log>
+    <Keywords>warning, , </Keywords>
+    <Category>2</Category>
+    <Chunk>&gt;&gt;&gt; /home/travis/gopath/src/github.com/ethereum/go-ethereum/build/bin/gometalinter.v2 --vendor --tests --deadline=2m --disable-all --enable=goimports --enable=varcheck --enable=vet --enable=gofmt --enable=misspell --enable=goconst --min-occurrences=6 ./...
+eth/config.go:1::warning: file is not gofmted with -s (gofmt)
+eth/config.go:1::warning: file is not goimported (goimports)</Chunk>
+  </Example>
+  <Example>
+    <Log>Go/ethereum@go-ethereum/failed/566824752.log</Log>
+    <Keywords>error, fatal, </Keywords>
+    <Category>1</Category>
+    <Chunk>../vendor/github.com/elastic/gosigar/sigar_darwin.go:12:10: fatal error: 'libproc.h' file not found
+
+#include &lt;libproc.h&gt;
+
+         ^~~~~~~~~~~
+
+1 error generated.</Chunk>
+  </Example>
+  <Example>
+    <Log>Go/ethereum@go-ethereum/failed/566991375.log</Log>
+    <Keywords>FAIL, , </Keywords>
+    <Category>0</Category>
+    <Chunk>FAIL: TestClientNotificationStorm (2.63s)
+	client_test.go:378: didn't get expected error</Chunk>
+  </Example>
+  <Example>
+    <Log>Go/ethereum@go-ethereum/failed/567003594.log</Log>
+    <Keywords>FAIL, , </Keywords>
+    <Category>0</Category>
+    <Chunk>FAIL: TestClientNotificationStorm (2.33s)
+    client_test.go:378: didn't get expected error</Chunk>
+  </Example>
+  <Example>
+    <Log>Go/ethereum@go-ethereum/failed/567288450.log</Log>
+    <Keywords>error, fatal, </Keywords>
+    <Category>1</Category>
+    <Chunk>../vendor/github.com/elastic/gosigar/sigar_darwin.go:12:10: fatal error: 'libproc.h' file not found
+
+#include &lt;libproc.h&gt;
+
+         ^~~~~~~~~~~
+
+1 error generated.</Chunk>
+  </Example>
+</Examples>

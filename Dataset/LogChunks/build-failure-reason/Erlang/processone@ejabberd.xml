@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>Erlang/processone@ejabberd/failed/554568247.log</Log>
+    <Keywords>=ERROR REPORT====, , </Keywords>
+    <Category>0</Category>
+    <Chunk>** gen_event handler cth_log_redirect crashed.
+** Was installed in error_logger
+** Last event was: {info_report,&lt;0.55.0&gt;,
+                                {&lt;0.31.0&gt;,std_info,
+                                 [{application,lager},
+                                  {exited,stopped},
+                                  {type,temporary}]}}
+** When handler state == {eh_state,tc_log_async,undefined,undefined,undefined,
+                                   false,false}
+** Reason == {timeout,{gen_server,call,
+                                  [application_controller,
+                                   which_applications]}}</Chunk>
+  </Example>
+  <Example>
+    <Log>Erlang/processone@ejabberd/failed/555654050.log</Log>
+    <Keywords>failed, Reason:, FAILED</Keywords>
+    <Category>1</Category>
+    <Chunk>suite:send_recv failed on line 593
+Reason: timetrap_timeout</Chunk>
+  </Example>
+  <Example>
+    <Log>Erlang/processone@ejabberd/failed/555699963.log</Log>
+    <Keywords>failed, Reason:, FAILED</Keywords>
+    <Category>1</Category>
+    <Chunk>suite:send_recv failed on line 593
+Reason: timetrap_timeout</Chunk>
+  </Example>
+  <Example>
+    <Log>Erlang/processone@ejabberd/failed/555702367.log</Log>
+    <Keywords>failed, Reason:, </Keywords>
+    <Category>1</Category>
+    <Chunk>ejabberd_SUITE:init_per_group failed
+Reason: {test_case_failed,{failed_to_create_sql_tables,pgsql,
+                      {aborted,
+                          [{severity,'ERROR'},
+                           {86,&lt;&lt;"ERROR"&gt;&gt;},
+                           {code,&lt;&lt;"42501"&gt;&gt;},
+                           {message,&lt;&lt;"must be owner of relation mqtt_pub"&gt;&gt;},
+                           {file,&lt;&lt;"aclchk.c"&gt;&gt;},
+                           {line,3416},
+                           {routine,&lt;&lt;"aclcheck_error"&gt;&gt;}]}}}</Chunk>
+  </Example>
+  <Example>
+    <Log>Erlang/processone@ejabberd/failed/556990927.log</Log>
+    <Keywords>failed, Reason:, FAILED</Keywords>
+    <Category>1</Category>
+    <Chunk>suite:recv_message failed on line 535
+Reason: timetrap_timeout</Chunk>
+  </Example>
+  <Example>
+    <Log>Erlang/processone@ejabberd/failed/557756393.log</Log>
+    <Keywords>failed, Reason:, </Keywords>
+    <Category>1</Category>
+    <Chunk>ejabberd_SUITE:init_per_group failed
+Reason: {test_case_failed,{failed_to_create_sql_tables,pgsql,
+                      {aborted,
+                          [{severity,'ERROR'},
+                           {86,&lt;&lt;"ERROR"&gt;&gt;},
+                           {code,&lt;&lt;"42501"&gt;&gt;},
+                           {message,&lt;&lt;"must be owner of relation mqtt_pub"&gt;&gt;},
+                           {file,&lt;&lt;"aclchk.c"&gt;&gt;},
+                           {line,3416},
+                           {routine,&lt;&lt;"aclcheck_error"&gt;&gt;}]}}}</Chunk>
+  </Example>
+  <Example>
+    <Log>Erlang/processone@ejabberd/failed/557787572.log</Log>
+    <Keywords>failed, Reason:, </Keywords>
+    <Category>2</Category>
+    <Chunk>{'EXIT',{error,{enoent,"/home/travis/build/processone/ejabberd/ebin"}}}</Chunk>
+  </Example>
+  <Example>
+    <Log>Erlang/processone@ejabberd/failed/558529443.log</Log>
+    <Keywords>failed, Reason:, FAILED</Keywords>
+    <Category>1</Category>
+    <Chunk>suite:get_event failed on line 939
+Reason: timetrap_timeout</Chunk>
+  </Example>
+  <Example>
+    <Log>Erlang/processone@ejabberd/failed/566947386.log</Log>
+    <Keywords>failed, Reason:, </Keywords>
+    <Category>1</Category>
+    <Chunk>ejabberd_SUITE:init_per_group failed
+Reason: {test_case_failed,{failed_to_create_sql_tables,pgsql,
+                      {aborted,
+                          [{severity,'ERROR'},
+                           {86,&lt;&lt;"ERROR"&gt;&gt;},
+                           {code,&lt;&lt;"42501"&gt;&gt;},
+                           {message,&lt;&lt;"must be owner of relation mqtt_pub"&gt;&gt;},
+                           {file,&lt;&lt;"aclchk.c"&gt;&gt;},
+                           {line,3416},
+                           {routine,&lt;&lt;"aclcheck_error"&gt;&gt;}]}}}</Chunk>
+  </Example>
+  <Example>
+    <Log>Erlang/processone@ejabberd/failed/570754006.log</Log>
+    <Keywords>failed, Reason:, </Keywords>
+    <Category>1</Category>
+    <Chunk>ejabberd_SUITE:init_per_group failed
+Reason: {test_case_failed,{failed_to_create_sql_tables,pgsql,
+                      {aborted,
+                          [{severity,'ERROR'},
+                           {86,&lt;&lt;"ERROR"&gt;&gt;},
+                           {code,&lt;&lt;"42501"&gt;&gt;},
+                           {message,&lt;&lt;"must be owner of relation mqtt_pub"&gt;&gt;},
+                           {file,&lt;&lt;"aclchk.c"&gt;&gt;},
+                           {line,3416},
+                           {routine,&lt;&lt;"aclcheck_error"&gt;&gt;}]}}}</Chunk>
+  </Example>
+</Examples>

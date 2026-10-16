@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>CSS/jgthms@bulma/failed/373686035.log</Log>
+    <Keywords>Error, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Error: Invalid CSS after ""sass/flex/_all" ": expected media query list, was "/*! it was call..."
+        on line 7 of bulma.sass</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/jgthms@bulma/failed/406362104.log</Log>
+    <Keywords>No such file or directory, , </Keywords>
+    <Category>1</Category>
+    <Chunk>/home/travis/.travis/job_stages: line 78: test/sass-compile-tester.sh: No such file or directory</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/jgthms@bulma/failed/437082455.log</Log>
+    <Keywords>Error, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Error: Invalid CSS after "2.3em": expected expression (e.g. 1px, bold), was ";"
+        on line 86 of sass/components/dropdown.sass
+        from line 5 of sass/components/_all.sass
+        from line 6 of bulma.sass</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/jgthms@bulma/failed/438531930.log</Log>
+    <Keywords>Error, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Error: Illegal nesting: Nothing may be nested beneath import directives.
+        on line 2 of sass/base/generic.sass
+        from line 4 of sass/base/_all.sass
+        from line 4 of bulma.sass</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/jgthms@bulma/failed/513332094.log</Log>
+    <Keywords>Error, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Error: Undefined variable: "$dropdown-divider-background-color-dark".
+        on line 98 of sass/components/dropdown.sass
+        from line 5 of sass/components/_all.sass
+        from line 6 of bulma.sass</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/jgthms@bulma/failed/534204380.log</Log>
+    <Keywords>Error, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Error: Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 8 of sass/layout/footer.sass
+        from line 5 of sass/layout/_all.sass
+        from line 9 of bulma.sass</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/jgthms@bulma/failed/534209066.log</Log>
+    <Keywords>Error, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Error: Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 9 of sass/layout/footer.sass
+        from line 5 of sass/layout/_all.sass
+        from line 9 of bulma.sass</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/jgthms@bulma/failed/534210704.log</Log>
+    <Keywords>Error, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Error: Inconsistent indentation: 3 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 9 of sass/layout/footer.sass
+        from line 5 of sass/layout/_all.sass
+        from line 9 of bulma.sass</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/jgthms@bulma/failed/534211385.log</Log>
+    <Keywords>Error, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Error: Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 9 of sass/layout/footer.sass
+        from line 5 of sass/layout/_all.sass
+        from line 9 of bulma.sass</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/jgthms@bulma/failed/534214736.log</Log>
+    <Keywords>Error, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Error: Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 9 of sass/layout/footer.sass
+        from line 5 of sass/layout/_all.sass
+        from line 9 of bulma.sass</Chunk>
+  </Example>
+</Examples>

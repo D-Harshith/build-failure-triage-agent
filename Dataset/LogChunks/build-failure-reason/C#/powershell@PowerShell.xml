@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>C#/powershell@PowerShell/failed/535985298.log</Log>
+    <Keywords>failed, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Execution of { dotnet $Arguments } by build.psm1: line 368 failed with exit code 1
+At /home/travis/build/PowerShell/PowerShell/build.psm1:2038 char:17
++                 throw $errorMessage
++                 ~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : OperationStopped: (Execution of { dotn\u2026ed with exit code 1:String) [], RuntimeException
++ FullyQualifiedErrorId : Execution of { dotnet $Arguments } by build.psm1: line 368 failed with exit code 1</Chunk>
+  </Example>
+  <Example>
+    <Log>C#/powershell@PowerShell/failed/535986685.log</Log>
+    <Keywords>failed, errors, </Keywords>
+    <Category>0</Category>
+    <Chunk>Execution of { dotnet run } by build.psm1: line 1885 failed with exit code 1
+
+At /Users/travis/build/PowerShell/PowerShell/build.psm1:2038 char:17
+
++                 throw $errorMessage
+
++                 ~~~~~~~~~~~~~~~~~~~
+
++ CategoryInfo          : OperationStopped: (Execution of { dotn\u2026ed with exit code 1:String) [], RuntimeException
+
++ FullyQualifiedErrorId : Execution of { dotnet run } by build.psm1: line 1885 failed with exit code 1</Chunk>
+  </Example>
+  <Example>
+    <Log>C#/powershell@PowerShell/failed/535987243.log</Log>
+    <Keywords>failed, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Execution of { dotnet restore $project $RestoreArguments } by build.psm1: line 519 failed with exit code 1
+At /home/travis/build/PowerShell/PowerShell/build.psm1:2038 char:17
++                 throw $errorMessage
++                 ~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : OperationStopped: (Execution of { dotn\u2026ed with exit code 1:String) [], RuntimeException
++ FullyQualifiedErrorId : Execution of { dotnet restore $project $RestoreArguments } by build.psm1: line 519 failed with exit code 1</Chunk>
+  </Example>
+  <Example>
+    <Log>C#/powershell@PowerShell/failed/535987256.log</Log>
+    <Keywords>failed, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Execution of { dotnet restore $project $RestoreArguments } by build.psm1: line 519 failed with exit code 1
+At /home/travis/build/PowerShell/PowerShell/build.psm1:2038 char:17
++                 throw $errorMessage
++                 ~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : OperationStopped: (Execution of { dotn\u2026ed with exit code 1:String) [], RuntimeException
++ FullyQualifiedErrorId : Execution of { dotnet restore $project $RestoreArguments } by build.psm1: line 519 failed with exit code 1</Chunk>
+  </Example>
+  <Example>
+    <Log>C#/powershell@PowerShell/failed/536509309.log</Log>
+    <Keywords>FAILURES, failed, </Keywords>
+    <Category>1</Category>
+    <Chunk>Description: ThreadJob with ScriptBlock and Using variables
+Name:        Basic ThreadJob Tests.ThreadJob with ScriptBlock and Using variables
+message:
+Expected {1 2 3 4 5}, but got {GlobalVar}.
+stack-trace:
+at &lt;ScriptBlock&gt;, /home/travis/build/PowerShell/PowerShell/test/powershell/Modules/ThreadJob/ThreadJob.Tests.ps1: line 137
+137:         $results[4] | Should -Be $Var4
+Description: ThreadJob with ScriptFile and Using variables
+Name:        Basic ThreadJob Tests.ThreadJob with ScriptFile and Using variables
+message:
+Expected {1 2 3 4 5 6 7 8 9 10}, but got {}.
+stack-trace:
+at &lt;ScriptBlock&gt;, /home/travis/build/PowerShell/PowerShell/test/powershell/Modules/ThreadJob/ThreadJob.Tests.ps1: line 196
+196:         $results[2] | Should -Be $Array1</Chunk>
+  </Example>
+  <Example>
+    <Log>C#/powershell@PowerShell/failed/536509314.log</Log>
+    <Keywords>FAILURES, failed, </Keywords>
+    <Category>1</Category>
+    <Chunk>Description: ThreadJob with ScriptBlock and Using variables
+Name:        Basic ThreadJob Tests.ThreadJob with ScriptBlock and Using variables
+message:
+Expected {1 2 3 4 5}, but got {GlobalVar}.
+stack-trace:
+at &lt;ScriptBlock&gt;, /home/travis/build/PowerShell/PowerShell/test/powershell/Modules/ThreadJob/ThreadJob.Tests.ps1: line 137
+137:         $results[4] | Should -Be $Var4
+Description: ThreadJob with ScriptFile and Using variables
+Name:        Basic ThreadJob Tests.ThreadJob with ScriptFile and Using variables
+message:
+Expected {1 2 3 4 5 6 7 8 9 10}, but got {}.
+stack-trace:
+at &lt;ScriptBlock&gt;, /home/travis/build/PowerShell/PowerShell/test/powershell/Modules/ThreadJob/ThreadJob.Tests.ps1: line 196
+196:         $results[2] | Should -Be $Array1</Chunk>
+  </Example>
+  <Example>
+    <Log>C#/powershell@PowerShell/failed/536510132.log</Log>
+    <Keywords>failed, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Execution of { dotnet $Arguments } by build.psm1: line 368 failed with exit code 1
+At /home/travis/build/PowerShell/PowerShell/build.psm1:2038 char:17
++                 throw $errorMessage
++                 ~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : OperationStopped: (Execution of { dotn\u2026ed with exit code 1:String) [], RuntimeException
++ FullyQualifiedErrorId : Execution of { dotnet $Arguments } by build.psm1: line 368 failed with exit code 1</Chunk>
+  </Example>
+  <Example>
+    <Log>C#/powershell@PowerShell/failed/536510159.log</Log>
+    <Keywords>failed, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Execution of { dotnet $Arguments } by build.psm1: line 368 failed with exit code 1
+At /home/travis/build/PowerShell/PowerShell/build.psm1:2038 char:17
++                 throw $errorMessage
++                 ~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : OperationStopped: (Execution of { dotn\u2026ed with exit code 1:String) [], RuntimeException
++ FullyQualifiedErrorId : Execution of { dotnet $Arguments } by build.psm1: line 368 failed with exit code 1</Chunk>
+  </Example>
+  <Example>
+    <Log>C#/powershell@PowerShell/failed/547432425.log</Log>
+    <Keywords>failed, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Execution of { dotnet restore $project $RestoreArguments } by build.psm1: line 519 failed with exit code 1
+At /home/travis/build/PowerShell/PowerShell/build.psm1:2038 char:17
++                 throw $errorMessage
++                 ~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : OperationStopped: (Execution of { dotn\u2026ed with exit code 1:String) [], RuntimeException
++ FullyQualifiedErrorId : Execution of { dotnet restore $project $RestoreArguments } by build.psm1: line 519 failed with exit code 1</Chunk>
+  </Example>
+  <Example>
+    <Log>C#/powershell@PowerShell/failed/547432434.log</Log>
+    <Keywords>failed, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Execution of { dotnet restore $project $RestoreArguments } by build.psm1: line 519 failed with exit code 1
+At /home/travis/build/PowerShell/PowerShell/build.psm1:2038 char:17
++                 throw $errorMessage
++                 ~~~~~~~~~~~~~~~~~~~
++ CategoryInfo          : OperationStopped: (Execution of { dotn\u2026ed with exit code 1:String) [], RuntimeException
++ FullyQualifiedErrorId : Execution of { dotnet restore $project $RestoreArguments } by build.psm1: line 519 failed with exit code 1</Chunk>
+  </Example>
+</Examples>

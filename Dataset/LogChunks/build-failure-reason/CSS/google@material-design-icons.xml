@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>CSS/google@material-design-icons/failed/92806560.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>0</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/google@material-design-icons/failed/92807014.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>0</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/google@material-design-icons/failed/92809009.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>0</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/google@material-design-icons/failed/92809205.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>0</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/google@material-design-icons/failed/92810143.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>0</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/google@material-design-icons/failed/93320805.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>0</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/google@material-design-icons/failed/96429687.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>0</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/google@material-design-icons/failed/96448414.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>0</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/google@material-design-icons/failed/97618287.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>0</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+  <Example>
+    <Log>CSS/google@material-design-icons/failed/99516227.log</Log>
+    <Keywords>rake aborted, No Rakefile found, </Keywords>
+    <Category>0</Category>
+    <Chunk>No Rakefile found (looking for: rakefile, Rakefile, rakefile.rb, Rakefile.rb)
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `eval'
+/home/travis/.rvm/gems/ruby-1.9.3-p551/bin/ruby_executable_hooks:15:in `&lt;main&gt;'</Chunk>
+  </Example>
+</Examples>

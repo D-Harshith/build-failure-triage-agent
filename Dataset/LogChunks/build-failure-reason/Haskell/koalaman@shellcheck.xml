@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>Haskell/koalaman@shellcheck/failed/469308814.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>0</Category>
+    <Chunk>Z:\appdata\dist\build/libHSShellCheck-0.6.0-BXGxxcYEANCBISlPEsuG9L.a(TTY.o):fake:(.text+0x3e85): undefined reference to `ShellCheckzm0zi6zi0zmBXGxxcYEANCBISlPEsuG9L_ShellCheckziFixer_zdwapplyFix_info'
+
+Z:\appdata\dist\build/libHSShellCheck-0.6.0-BXGxxcYEANCBISlPEsuG9L.a(TTY.o):fake:(.data.rel.ro+0x2bc): undefined reference to `ShellCheckzm0zi6zi0zmBXGxxcYEANCBISlPEsuG9L_ShellCheckziFixer_zdwapplyFix_closure'
+
+collect2.exe: error: ld returned 1 exit status</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/koalaman@shellcheck/failed/471475140.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>1</Category>
+    <Chunk>src/ShellCheck/Fixer.hs:38:10: error:
+[0m[ 6 of 19] Compiling Paths_ShellCheck ( dist/build/autogen/Paths_ShellCheck.hs, dist/build/Paths_ShellCheck.o )
+[ 7 of 19] Compiling ShellCheck.Data  ( src/ShellCheck/Data.hs, dist/build/ShellCheck/Data.o )
+[91m    Not in scope: type constructor or class `Semigroup'</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/koalaman@shellcheck/failed/501296412.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>2</Category>
+    <Chunk>shellcheck.hs:442:19: error:
+    Variable not in scope: doesPathExist :: [Char] -&gt; IO Bool</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/koalaman@shellcheck/failed/501296929.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>2</Category>
+    <Chunk>shellcheck.hs:442:19: error:
+    Variable not in scope: doesPathExist :: [Char] -&gt; IO Bool</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/koalaman@shellcheck/failed/540421319.log</Log>
+    <Keywords>Error, , </Keywords>
+    <Category>3</Category>
+    <Chunk>Unable to find image 'koalaman/shellcheck:current' locally
+docker: Error response from daemon: manifest for koalaman/shellcheck:current not found.</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/koalaman@shellcheck/failed/540436118.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>2</Category>
+    <Chunk>shellcheck.hs:31:1: error:
+    Failed to load interface for ‘ShellCheck.Formatter.JSON1’
+    Locations searched:
+      ShellCheck/Formatter/JSON1.hs
+      ShellCheck/Formatter/JSON1.lhs
+      ShellCheck/Formatter/JSON1.hsig
+      ShellCheck/Formatter/JSON1.lhsig
+      src/ShellCheck/Formatter/JSON1.hs
+      src/ShellCheck/Formatter/JSON1.lhs
+      src/ShellCheck/Formatter/JSON1.hsig
+      src/ShellCheck/Formatter/JSON1.lhsig
+      dist/build/autogen/ShellCheck/Formatter/JSON1.hs
+      dist/build/autogen/ShellCheck/Formatter/JSON1.lhs
+      dist/build/autogen/ShellCheck/Formatter/JSON1.hsig
+      dist/build/autogen/ShellCheck/Formatter/JSON1.lhsig</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/koalaman@shellcheck/failed/549543406.log</Log>
+    <Keywords>error, , </Keywords>
+    <Category>1</Category>
+    <Chunk>src/ShellCheck/Formatter/Diff.hs:183:31: error:[0m[91m
+    * Variable not in scope:[0m[91m (&gt;) :: v -&gt;[0m[91m v -&gt; v
+    * Perhaps you meant one of these:[0m[91m
+[0m[91m        [0m[91m`*' (imported from[0m[91m Prelude), `*&gt;' (imported from Prelude),
+[0m[91m        [0m[91m`$&gt;' (imported from[0m[91m Prelude)</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/koalaman@shellcheck/failed/553130518.log</Log>
+    <Keywords>server is down , </Keywords>
+    <Category>4</Category>
+    <Chunk>cabal.exe: Couldn't establish HTTP connection. Possible cause: HTTP proxy
+
+server is down.</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/koalaman@shellcheck/failed/563353767.log</Log>
+    <Keywords>Error, error, </Keywords>
+    <Category>5</Category>
+    <Chunk>container_linux.go:265: starting container process caused "exec: \"-c\": executable file not found in $PATH"
+docker: Error response from daemon: oci runtime error: container_linux.go:265: starting container process caused "exec: \"-c\": executable file not found in $PATH".</Chunk>
+  </Example>
+  <Example>
+    <Log>Haskell/koalaman@shellcheck/failed/563381753.log</Log>
+    <Keywords>invalid, , </Keywords>
+    <Category>6</Category>
+    <Chunk>+docker build -t :current .
+invalid argument ":current" for t: invalid reference format</Chunk>
+  </Example>
+</Examples>

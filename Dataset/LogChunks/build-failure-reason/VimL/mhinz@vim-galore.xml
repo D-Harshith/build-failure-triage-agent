@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>VimL/mhinz@vim-galore/failed/374778890.log</Log>
+    <Keywords>README.md:, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>README.md:2186:Line longer than 80 characters.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/mhinz@vim-galore/failed/374779116.log</Log>
+    <Keywords>README.md:, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>README.md:2186:Line longer than 80 characters.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/mhinz@vim-galore/failed/374779422.log</Log>
+    <Keywords>README.md:, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>README.md:2186:Line longer than 80 characters.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/mhinz@vim-galore/failed/374779992.log</Log>
+    <Keywords>README.md:, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>README.md:2180:Line longer than 80 characters.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/mhinz@vim-galore/failed/374781325.log</Log>
+    <Keywords>README.md:, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>README.md:2180:Line longer than 80 characters.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/mhinz@vim-galore/failed/374803396.log</Log>
+    <Keywords>README.md:, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>README.md:2180:Line longer than 80 characters.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/mhinz@vim-galore/failed/403259414.log</Log>
+    <Keywords>README.md:, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>README.md:2192:Line longer than 80 characters.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/mhinz@vim-galore/failed/417699186.log</Log>
+    <Keywords>README.md:, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>README.md:2192:Line longer than 80 characters.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/mhinz@vim-galore/failed/430784580.log</Log>
+    <Keywords>README.md:, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>README.md:2197:Line longer than 80 characters.</Chunk>
+  </Example>
+  <Example>
+    <Log>VimL/mhinz@vim-galore/failed/443978045.log</Log>
+    <Keywords>README.md:, exited with 1, </Keywords>
+    <Category>0</Category>
+    <Chunk>README.md:2594:Line longer than 80 characters.</Chunk>
+  </Example>
+</Examples>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>Clojure/LightTable@LightTable/failed/557182503.log</Log>
+    <Keywords>No such file or directory, exited with 127, </Keywords>
+    <Category>0</Category>
+    <Chunk>/home/travis/.travis/functions: line 104: /home/travis/build/LightTable/LightTable/install-jdk.sh: No such file or directory</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/LightTable@LightTable/failed/557182511.log</Log>
+    <Keywords>No such file or directory, exited with 127, </Keywords>
+    <Category>0</Category>
+    <Chunk>/home/travis/.travis/functions: line 104: /home/travis/build/LightTable/LightTable/install-jdk.sh: No such file or directory</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/LightTable@LightTable/failed/557187552.log</Log>
+    <Keywords>Permission denied, exited with 126, </Keywords>
+    <Category>0</Category>
+    <Chunk>/home/travis/.travis/functions: line 104: /home/travis/build/LightTable/LightTable/install-jdk.sh: Permission denied</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/LightTable@LightTable/failed/557187564.log</Log>
+    <Keywords>Permission denied, exited with 126, </Keywords>
+    <Category>0</Category>
+    <Chunk>/home/travis/.travis/functions: line 104: /home/travis/build/LightTable/LightTable/install-jdk.sh: Permission denied</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/LightTable@LightTable/failed/557191599.log</Log>
+    <Keywords>No such file or directory, exited with 127, </Keywords>
+    <Category>0</Category>
+    <Chunk>/home/travis/.travis/functions: line 104: /home/travis/install-jdk.sh: No such file or directory</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/LightTable@LightTable/failed/557191614.log</Log>
+    <Keywords>No such file or directory, exited with 127, </Keywords>
+    <Category>0</Category>
+    <Chunk>/home/travis/.travis/functions: line 104: /home/travis/install-jdk.sh: No such file or directory</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/LightTable@LightTable/failed/557192585.log</Log>
+    <Keywords>No such file or directory, exited with 127, </Keywords>
+    <Category>0</Category>
+    <Chunk>/home/travis/.travis/functions: line 104: /home/travis/bin/install-jdk.sh: No such file or directory</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/LightTable@LightTable/failed/557192591.log</Log>
+    <Keywords>No such file or directory, exited with 127, </Keywords>
+    <Category>0</Category>
+    <Chunk>/home/travis/.travis/functions: line 104: /home/travis/bin/install-jdk.sh: No such file or directory</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/LightTable@LightTable/failed/557196001.log</Log>
+    <Keywords>Permission denied, exited with 126, </Keywords>
+    <Category>0</Category>
+    <Chunk>/home/travis/.travis/functions: line 104: /home/travis/build/LightTable/LightTable/install-jdk.sh: Permission denied</Chunk>
+  </Example>
+  <Example>
+    <Log>Clojure/LightTable@LightTable/failed/557196013.log</Log>
+    <Keywords>Permission denied, exited with 126, </Keywords>
+    <Category>0</Category>
+    <Chunk>/home/travis/.travis/functions: line 104: /home/travis/build/LightTable/LightTable/install-jdk.sh: Permission denied</Chunk>
+  </Example>
+</Examples>

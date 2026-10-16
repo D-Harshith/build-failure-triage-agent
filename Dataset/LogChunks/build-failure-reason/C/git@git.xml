@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>C/git@git/failed/564416725.log</Log>
+    <Keywords>not defined, -trace2_event_file, </Keywords>
+    <Category>0</Category>
+    <Chunk>+t/trace_schema_validator/trace_schema_validator --trace2_event_file=/tmp/tmp.7muyWDlizz --schema_file=t/trace_schema_validator/strict_schema.json --progress=10000
+flag provided but not defined: -trace2_event_file</Chunk>
+  </Example>
+  <Example>
+    <Log>C/git@git/failed/564815538.log</Log>
+    <Keywords>not defined, -trace2_event_file, </Keywords>
+    <Category>0</Category>
+    <Chunk>+t/trace_schema_validator/trace_schema_validator --trace2_event_file=/tmp/tmp.qBeGnnVmPh --schema_file=t/trace_schema_validator/strict_schema.json --progress=10000
+flag provided but not defined: -trace2_event_file</Chunk>
+  </Example>
+  <Example>
+    <Log>C/git@git/failed/565119978.log</Log>
+    <Keywords>not defined, -trace2_event_file, </Keywords>
+    <Category>0</Category>
+    <Chunk>t/trace_schema_validator/trace_schema_validator --trace2_event_file=/tmp/tmp.TZ43eptv8K --schema_file=t/trace_schema_validator/strict_schema.json --progress=10000
+flag provided but not defined: -trace2_event_file</Chunk>
+  </Example>
+  <Example>
+    <Log>C/git@git/failed/565692415.log</Log>
+    <Keywords>not defined, -trace2_event_file, </Keywords>
+    <Category>0</Category>
+    <Chunk>+t/trace_schema_validator/trace_schema_validator --trace2_event_file=/tmp/tmp.J90LRjpRsY --schema_file=t/trace_schema_validator/strict_schema.json --progress=10000
+flag provided but not defined: -trace2_event_file</Chunk>
+  </Example>
+  <Example>
+    <Log>C/git@git/failed/565709337.log</Log>
+    <Keywords>not defined, -trace2_event_file, </Keywords>
+    <Category>0</Category>
+    <Chunk>+t/trace_schema_validator/trace_schema_validator --trace2_event_file=/tmp/tmp.jRisJVDLCF --schema_file=t/trace_schema_validator/strict_schema.json --progress=10000
+flag provided but not defined: -trace2_event_file</Chunk>
+  </Example>
+  <Example>
+    <Log>C/git@git/failed/565956904.log</Log>
+    <Keywords>Failed, , </Keywords>
+    <Category>1</Category>
+    <Chunk>t9502-gitweb-standalone-parse-output.sh ............ [31mDubious, test returned 1 (wstat 256, 0x100)[0m
+[31mFailed 1/13 subtests</Chunk>
+  </Example>
+  <Example>
+    <Log>C/git@git/failed/565962321.log</Log>
+    <Keywords>Failed, , </Keywords>
+    <Category>1</Category>
+    <Chunk>t9502-gitweb-standalone-parse-output.sh ............ [31mDubious, test returned 1 (wstat 256, 0x100)[0m
+[31mFailed 1/13 subtests</Chunk>
+  </Example>
+  <Example>
+    <Log>C/git@git/failed/565980859.log</Log>
+    <Keywords>Failed, , </Keywords>
+    <Category>1</Category>
+    <Chunk>t9502-gitweb-standalone-parse-output.sh ............ [31mDubious, test returned 1 (wstat 256, 0x100)[0m
+[31mFailed 1/13 subtests</Chunk>
+  </Example>
+  <Example>
+    <Log>C/git@git/failed/566150972.log</Log>
+    <Keywords>not defined, -trace2_event_file, </Keywords>
+    <Category>0</Category>
+    <Chunk>+t/trace_schema_validator/trace_schema_validator --trace2_event_file=/tmp/tmp.tgDJXosMrw --schema_file=t/trace_schema_validator/strict_schema.json --progress=10000
+flag provided but not defined: -trace2_event_file</Chunk>
+  </Example>
+  <Example>
+    <Log>C/git@git/failed/566701284.log</Log>
+    <Keywords>Failed, , </Keywords>
+    <Category>1</Category>
+    <Chunk>t9806-git-p4-options.sh ............................ 
+Dubious, test returned 1 (wstat 256, 0x100)
+Failed 1/5 subtests</Chunk>
+  </Example>
+</Examples>

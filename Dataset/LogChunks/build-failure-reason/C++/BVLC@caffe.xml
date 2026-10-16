@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>C++/BVLC@caffe/failed/214074807.log</Log>
+    <Keywords>CMake Error, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>CMake Error at /usr/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake:138 (message):
+  Could NOT find Halide (missing: HALIDE_ROOT_DIR HALIDE_LIBRARIES
+  HALIDE_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /usr/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake:374 (_FPHSA_FAILURE_MESSAGE)
+  cmake/Modules/FindHalide.cmake:38 (find_package_handle_standard_args)
+  cmake/Dependencies.cmake:209 (find_package)
+  CMakeLists.txt:46 (include)</Chunk>
+  </Example>
+  <Example>
+    <Log>C++/BVLC@caffe/failed/214077363.log</Log>
+    <Keywords>CMake Error, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>CMake Error at /usr/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake:138 (message):
+  Could NOT find Halide (missing: HALIDE_ROOT_DIR HALIDE_LIBRARIES
+  HALIDE_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /usr/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake:374 (_FPHSA_FAILURE_MESSAGE)
+  cmake/Modules/FindHalide.cmake:38 (find_package_handle_standard_args)
+  cmake/Dependencies.cmake:209 (find_package)
+  CMakeLists.txt:46 (include)</Chunk>
+  </Example>
+  <Example>
+    <Log>C++/BVLC@caffe/failed/214247336.log</Log>
+    <Keywords>CMake Error, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>CMake Error at /usr/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake:138 (message):
+  Could NOT find Halide (missing: HALIDE_LIBRARIES HALIDE_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /usr/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake:374 (_FPHSA_FAILURE_MESSAGE)
+  cmake/Modules/FindHalide.cmake:38 (find_package_handle_standard_args)
+  cmake/Dependencies.cmake:209 (find_package)
+  CMakeLists.txt:46 (include)</Chunk>
+  </Example>
+  <Example>
+    <Log>C++/BVLC@caffe/failed/214320399.log</Log>
+    <Keywords>No such file or directory, , </Keywords>
+    <Category>1</Category>
+    <Chunk>./scripts/travis/install-deps.sh: line 117: cd: ./scripts/travis: No such file or directory</Chunk>
+  </Example>
+  <Example>
+    <Log>C++/BVLC@caffe/failed/214320609.log</Log>
+    <Keywords>No such file or directory, , </Keywords>
+    <Category>1</Category>
+    <Chunk>./scripts/travis/install-deps.sh: line 117: cd: ./scripts/travis: No such file or directory</Chunk>
+  </Example>
+  <Example>
+    <Log>C++/BVLC@caffe/failed/214327990.log</Log>
+    <Keywords>CMake Error, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>CMake Error at /usr/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake:138 (message):
+  Could NOT find Halide (missing: HALIDE_LIBRARIES HALIDE_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /usr/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake:374 (_FPHSA_FAILURE_MESSAGE)
+  cmake/Modules/FindHalide.cmake:38 (find_package_handle_standard_args)
+  cmake/Dependencies.cmake:209 (find_package)
+  CMakeLists.txt:46 (include)</Chunk>
+  </Example>
+  <Example>
+    <Log>C++/BVLC@caffe/failed/214329485.log</Log>
+    <Keywords>CMake Error, Error, </Keywords>
+    <Category>0</Category>
+    <Chunk>CMake Error at /usr/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake:138 (message):
+  Could NOT find Halide (missing: HALIDE_LIBRARIES HALIDE_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /usr/share/cmake-3.2/Modules/FindPackageHandleStandardArgs.cmake:374 (_FPHSA_FAILURE_MESSAGE)
+  cmake/Modules/FindHalide.cmake:38 (find_package_handle_standard_args)
+  cmake/Dependencies.cmake:209 (find_package)
+  CMakeLists.txt:46 (include)</Chunk>
+  </Example>
+  <Example>
+    <Log>C++/BVLC@caffe/failed/221812641.log</Log>
+    <Keywords>CMake Error, Error, </Keywords>
+    <Category>2</Category>
+    <Chunk>CMake Error at /usr/share/cmake-3.2/Modules/FindBoost.cmake:1201 (message):
+  Unable to find the requested Boost libraries.
+
+  Boost version: 1.54.0
+
+  Boost include path: /usr/include
+
+  Detected version of Boost is too old.  Requested version was 1.55 (or
+  newer).
+Call Stack (most recent call first):
+  cmake/Dependencies.cmake:8 (find_package)
+  CMakeLists.txt:45 (include)</Chunk>
+  </Example>
+</Examples>

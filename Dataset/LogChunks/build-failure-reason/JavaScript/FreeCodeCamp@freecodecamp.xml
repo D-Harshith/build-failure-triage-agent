@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Examples>
+  <Example>
+    <Log>JavaScript/FreeCodeCamp@freecodecamp/failed/566612949.log</Log>
+    <Keywords>ERR!, , </Keywords>
+    <Category>0</Category>
+    <Chunk>client/src/components/layouts/prism-night.css
+Code style issues found in the above file(s). Forgot to run Prettier?</Chunk>
+  </Example>
+  <Example>
+    <Log>JavaScript/FreeCodeCamp@freecodecamp/failed/566340236.log</Log>
+    <Keywords>1), Error, failing</Keywords>
+    <Category>1</Category>
+    <Chunk>1) Check challenges
+       Check challenges (english)
+         Use Recursion to Create a Range of Numbers
+           Check tests against solutions
+             Solution 1:
+     Error: the string "&lt;code&gt;rangeOfNumbers(1, 5)&lt;/code&gt; should return &lt;code&gt;[1, 2, 3, 4, 5]&lt;/code&gt;.\n        &lt;code&gt;rangeOfNumbers(1, 5)&lt;/code&gt; should return &lt;code&gt;[1, 2, 3, 4, 5]&lt;/code&gt;.\nassert.deepStrictEqual is not a function" was thrown, throw an Error :)
+      at Runner.Mocha.Runner.fail (test/test-challenges.js:65:24)
+      at process._tickCallback (internal/process/next_tick.js:68:7)</Chunk>
+  </Example>
+  <Example>
+    <Log>JavaScript/FreeCodeCamp@freecodecamp/failed/566340191.log</Log>
+    <Keywords>1), Error, failing</Keywords>
+    <Category>1</Category>
+    <Chunk>1) Check challenges
+       Check challenges (english)
+         Use Recursion to Create a Range of Numbers
+           Check tests against solutions
+             Solution 1:
+     Error: the string "&lt;code&gt;rangeOfNumbers(1, 5)&lt;/code&gt; should return &lt;code&gt;[1, 2, 3, 4, 5]&lt;/code&gt;.\n        &lt;code&gt;rangeOfNumbers(1, 5)&lt;/code&gt; should return &lt;code&gt;[1, 2, 3, 4, 5]&lt;/code&gt;.\nassert.deepStrictEqual is not a function" was thrown, throw an Error :)
+      at Runner.Mocha.Runner.fail (test/test-challenges.js:65:24)
+      at process._tickCallback (internal/process/next_tick.js:68:7)</Chunk>
+  </Example>
+  <Example>
+    <Log>JavaScript/FreeCodeCamp@freecodecamp/failed/566312689.log</Log>
+    <Keywords>1), Error, failing</Keywords>
+    <Category>1</Category>
+    <Chunk>1) Check challenges
+       Check challenges (english)
+         Apply a Style Until a Condition is Met with @while
+           Check tests against solutions
+             Solution 1:
+[0m[31m     TypeError: Cannot read property 'message' of undefined[0m[90m
+      at /home/travis/build/freeCodeCamp/freeCodeCamp/curriculum/test/test-challenges.js:320:15
+      at process._tickCallback (internal/process/next_tick.js:68:7)</Chunk>
+  </Example>
+  <Example>
+    <Log>JavaScript/FreeCodeCamp@freecodecamp/failed/566207163.log</Log>
+    <Keywords>1), Error, failing</Keywords>
+    <Category>1</Category>
+    <Chunk>1) Check challenges
+       Check challenges (english)
+         Search and Replace
+           Check tests syntax
+             Check for: code&gt;myReplace("His name is Tom", "Tom", "John") /code&gt; should return "His name is John".:
+[0m[31m     expected [Function] to not throw an error but 'SyntaxError: Unexpected token )' was thrown</Chunk>
+  </Example>
+  <Example>
+    <Log>JavaScript/FreeCodeCamp@freecodecamp/failed/566117171.log</Log>
+    <Keywords>1), Error, failing</Keywords>
+    <Category>1</Category>
+    <Chunk>1) Check challenges
+       Check challenges (english)
+         Add a Text Alternative to Images for Visually Impaired Accessibility
+           Common checks:
+     ValidationError: "forumTopicId" is not allowed</Chunk>
+  </Example>
+  <Example>
+    <Log>JavaScript/FreeCodeCamp@freecodecamp/failed/566116668.log</Log>
+    <Keywords>1), Error, failing</Keywords>
+    <Category>1</Category>
+    <Chunk>1) Check challenges
+       Check challenges (english)
+         Add a Text Alternative to Images for Visually Impaired Accessibility
+           Common checks:
+     ValidationError: "forumTopicId" is not allowed</Chunk>
+  </Example>
+  <Example>
+    <Log>JavaScript/FreeCodeCamp@freecodecamp/failed/565987238.log</Log>
+    <Keywords>ERR!, error, </Keywords>
+    <Category>0</Category>
+    <Chunk>[4m/home/travis/build/freeCodeCamp/freeCodeCamp/client/src/components/Header/components/MenuLinks.js[24m
+  [2m28:14[22m  [31merror[39m  Replace `·className='top-right-nav-link'·external={true}·to='https://coderadio.freecodecamp.org/'` with `⏎··········className='top-right-nav-link'⏎··········external={true}⏎··········to='https://coderadio.freecodecamp.org/'⏎········`  [2mprettier/prettier[22m</Chunk>
+  </Example>
+  <Example>
+    <Log>JavaScript/FreeCodeCamp@freecodecamp/failed/564792682.log</Log>
+    <Keywords>ERR!, error, </Keywords>
+    <Category>2</Category>
+    <Chunk>Error: 
+Invalid or upper case character found in 'knight's-tour', please use '-' for spaces
+and all folder names must be lower case. Valid characters are [a-z0-9\-.].
+
+  Found in:
+    /home/travis/build/freeCodeCamp/freeCodeCamp/guide/english/certifications/coding-interview-prep/rosetta-code/knight's-tour
+
+    at Promise (/home/travis/build/freeCodeCamp/freeCodeCamp/tools/scripts/ci/md-testing-utils.js:42:9)
+    at new Promise (anonymous&gt;)
+    at checkDirName (/home/travis/build/freeCodeCamp/freeCodeCamp/tools/scripts/ci/md-testing-utils.js:39:10)
+    at checkGuideFile (/home/travis/build/freeCodeCamp/freeCodeCamp/tools/scripts/ci/md-testing-utils.js:33:12)
+    at EventEmitter.readdirp.on.file (/home/travis/build/freeCodeCamp/freeCodeCamp/tools/scripts/ci/ensure-guide-formatting.js:26:7)
+    at EventEmitter.emit (/home/travis/build/freeCodeCamp/freeCodeCamp/node_modules/eventemitter3/index.js:181:35)
+    at Object.filter (/home/travis/build/freeCodeCamp/freeCodeCamp/node_modules/readdirp-walk/readdirp.js:72:15)
+    at processFilter (/home/travis/build/freeCodeCamp/freeCodeCamp/node_modules/walk-filtered/index.js:23:91)
+    at /home/travis/build/freeCodeCamp/freeCodeCamp/node_modules/walk-filtered/index.js:34:5
+    at FSReqWrap.oncomplete (fs.js:154:5)</Chunk>
+  </Example>
+  <Example>
+    <Log>JavaScript/FreeCodeCamp@freecodecamp/failed/564664934.log</Log>
+    <Keywords>ERR!, , </Keywords>
+    <Category>0</Category>
+    <Chunk>/home/travis/build/freeCodeCamp/freeCodeCamp/curriculum/challenges/english/04-data-visualization/json-apis-and-ajax/get-geolocation-data-to-find-a-users-gps-coordinates.english.md: 78: MD031/blanks-around-fences Fenced code blocks should be surrounded by blank lines [Context: "```"]</Chunk>
+  </Example>
+</Examples>
